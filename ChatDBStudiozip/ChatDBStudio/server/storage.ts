@@ -1,6 +1,8 @@
 import { 
   type ChatMessage, 
   type InsertChatMessage,
+  type ChatSession,
+  type InsertChatSession,
   type Database,
   type InsertDatabase,
   type DatabaseTable,
@@ -9,13 +11,21 @@ import {
   type InsertTableRow,
   type UploadedDocument,
   type InsertUploadedDocument,
-} from "@shared/schema";
+} from "../shared/schema";
 import { randomUUID } from "crypto";
 
 export interface IStorage {
-  // Chat operations
+  // Chat session operations
+  createChatSession(session: InsertChatSession): Promise<ChatSession>;
+  getChatSessions(): Promise<ChatSession[]>;
+  getChatSession(id: string): Promise<ChatSession | undefined>;
+  updateChatSessionTitle(id: string, title: string): Promise<ChatSession>;
+  deleteChatSession(id: string): Promise<void>;
+  
+  // Chat message operations
   addChatMessage(message: InsertChatMessage): Promise<ChatMessage>;
-  getChatHistory(): Promise<ChatMessage[]>;
+  getChatHistory(sessionId?: string): Promise<ChatMessage[]>;
+  clearChatHistory(sessionId?: string): Promise<void>;
   
   // Database operations
   createDatabase(database: InsertDatabase): Promise<Database>;
@@ -46,11 +56,60 @@ export interface IStorage {
 }
 
 export class MemStorage implements IStorage {
+  private sessions: Map<string, ChatSession> = new Map();
   private messages: Map<string, ChatMessage> = new Map();
   private databases: Map<string, Database> = new Map();
   private tables: Map<string, DatabaseTable> = new Map();
   private rows: Map<string, TableRow> = new Map();
   private documents: Map<string, UploadedDocument> = new Map();
+
+  async createChatSession(session: InsertChatSession): Promise<ChatSession> {
+    const id = randomUUID();
+    const chatSession: ChatSession = {
+      id,
+      title: session.title,
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    };
+    this.sessions.set(id, chatSession);
+    return chatSession;
+  }
+
+  async getChatSessions(): Promise<ChatSession[]> {
+    return Array.from(this.sessions.values()).sort(
+      (a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()
+    );
+  }
+
+  async getChatSession(id: string): Promise<ChatSession | undefined> {
+    return this.sessions.get(id);
+  }
+
+  async updateChatSessionTitle(id: string, title: string): Promise<ChatSession> {
+    const session = this.sessions.get(id);
+    if (!session) throw new Error("Session not found");
+    session.title = title;
+    session.updatedAt = new Date();
+    this.sessions.set(id, session);
+    return session;
+  }
+
+  async deleteChatSession(id: string): Promise<void> {
+    this.sessions.delete(id);
+    Array.from(this.messages.values())
+      .filter(m => m.sessionId === id)
+      .forEach(m => this.messages.delete(m.id));
+  }
+
+  async clearChatHistory(sessionId?: string): Promise<void> {
+    if (sessionId) {
+      Array.from(this.messages.values())
+        .filter(m => m.sessionId === sessionId)
+        .forEach(m => this.messages.delete(m.id));
+    } else {
+      this.messages.clear();
+    }
+  }
 
   async createDatabase(database: InsertDatabase): Promise<Database> {
     const id = randomUUID();
@@ -88,17 +147,31 @@ export class MemStorage implements IStorage {
     const id = randomUUID();
     const chatMessage: ChatMessage = {
       id,
+      sessionId: message.sessionId || null,
       content: message.content,
       role: message.role,
       createdAt: new Date(),
     };
     this.messages.set(id, chatMessage);
+    
+    if (message.sessionId) {
+      const session = this.sessions.get(message.sessionId);
+      if (session) {
+        session.updatedAt = new Date();
+        this.sessions.set(message.sessionId, session);
+      }
+    }
+    
     return chatMessage;
   }
 
-  async getChatHistory(): Promise<ChatMessage[]> {
-    return Array.from(this.messages.values()).sort(
-      (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+  async getChatHistory(sessionId?: string): Promise<ChatMessage[]> {
+    let messages = Array.from(this.messages.values());
+    if (sessionId) {
+      messages = messages.filter(m => m.sessionId === sessionId);
+    }
+    return messages.sort(
+      (a, b) => new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime()
     );
   }
 

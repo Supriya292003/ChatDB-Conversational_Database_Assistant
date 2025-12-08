@@ -58,5 +58,33 @@
     "content": "✓ Inserted row into \"student\" with values: 101, Asha, asha@gmail.com",
     "role": "assistant",
     "createdAt": "2025-12-03T09:06:11.505Z"
+  },
+  "925903b3-1b4f-41a8-978b-85827e719562": {
+    "id": "925903b3-1b4f-41a8-978b-85827e719562",
+    "sessionId": "b90a04ba-3312-4055-86b5-1aba1e059298",
+    "content": "hi",
+    "role": "user",
+    "createdAt": "2025-12-08T02:54:38.238Z"
+  },
+  "a1c28e4b-0b6e-40bb-9b9e-977e724be275": {
+    "id": "a1c28e4b-0b6e-40bb-9b9e-977e724be275",
+    "sessionId": "b90a04ba-3312-4055-86b5-1aba1e059298",
+    "content": "Hi there! What can I help you with today? I can help you create and manage database tables.",
+    "role": "assistant",
+    "createdAt": "2025-12-08T02:54:38.239Z"
+  },
+  "984a8c35-4692-40bf-ab09-b7b7a191b337": {
+    "id": "984a8c35-4692-40bf-ab09-b7b7a191b337",
+    "sessionId": "b90a04ba-3312-4055-86b5-1aba1e059298",
+    "content": "create a table course with id, name\n",
+    "role": "user",
+    "createdAt": "2025-12-08T02:54:52.863Z"
+  },
+  "6ad2b954-9275-4527-8829-d815951df653": {
+    "id": "6ad2b954-9275-4527-8829-d815951df653",
+    "sessionId": "b90a04ba-3312-4055-86b5-1aba1e059298",
+    "content": "Processing: create a table course with id, name\n",
+    "role": "assistant",
+    "createdAt": "2025-12-08T02:54:52.865Z"
   }
 }

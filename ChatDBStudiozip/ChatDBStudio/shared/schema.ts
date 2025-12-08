@@ -3,9 +3,18 @@ import { pgTable, text, varchar, json, timestamp, integer, boolean } from "drizz
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
+// Chat Sessions
+export const chatSessions = pgTable("chat_sessions", {
+  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
+  title: varchar("title").notNull(),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+  updatedAt: timestamp("updated_at").defaultNow().notNull(),
+});
+
 // Chat Messages
 export const chatMessages = pgTable("chat_messages", {
   id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
+  sessionId: varchar("session_id").references(() => chatSessions.id),
   content: text("content").notNull(),
   role: varchar("role").notNull(), // 'user' or 'assistant'
   createdAt: timestamp("created_at").defaultNow().notNull(),
@@ -47,7 +56,12 @@ export const uploadedDocuments = pgTable("uploaded_documents", {
 });
 
 // Insert schemas
+export const insertChatSessionSchema = createInsertSchema(chatSessions).pick({
+  title: true,
+});
+
 export const insertChatMessageSchema = createInsertSchema(chatMessages).pick({
+  sessionId: true,
   content: true,
   role: true,
 });
@@ -75,6 +89,9 @@ export const insertUploadedDocumentSchema = createInsertSchema(uploadedDocuments
 });
 
 // Types
+export type ChatSession = typeof chatSessions.$inferSelect;
+export type InsertChatSession = z.infer<typeof insertChatSessionSchema>;
+
 export type ChatMessage = typeof chatMessages.$inferSelect;
 export type InsertChatMessage = z.infer<typeof insertChatMessageSchema>;
 

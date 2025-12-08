@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { useQuery, useMutation } from "@tanstack/react-query";
+import { useParams } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Card } from "@/components/ui/card";
@@ -10,13 +11,18 @@ import { useToast } from "@/hooks/use-toast";
 
 interface Message {
   id: string;
+  sessionId: string | null;
   content: any;
   role: "user" | "assistant";
   createdAt: string;
 }
 
+interface ChatSession {
+  id: string;
+  title: string;
+}
+
 const parseTableContent = (content: string) => {
-  // Check if content is a formatted table (starts with 📋 TABLE:)
   if (content.includes("📋 TABLE:")) {
     const lines = content.split("\n");
     const titleIdx = lines.findIndex(l => l.includes("📋 TABLE:"));
@@ -42,6 +48,9 @@ const parseTableContent = (content: string) => {
 };
 
 export default function Chat() {
+  const params = useParams<{ sessionId: string }>();
+  const sessionId = params.sessionId;
+  
   const [input, setInput] = useState("");
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [isUploading, setIsUploading] = useState(false);
@@ -123,7 +132,8 @@ export default function Chat() {
       const wsUrl = `${protocol}//${host}/ws`;
       const socket = new WebSocket(wsUrl);
       socket.onmessage = () => {
-        queryClient.invalidateQueries({ queryKey: ["/api/chat/history"] });
+        queryClient.invalidateQueries({ queryKey: ["/api/chat/history", sessionId] });
+        queryClient.invalidateQueries({ queryKey: ["/api/chat/sessions"] });
       };
       socket.onerror = () => {
         console.error("WebSocket error");
@@ -134,13 +144,13 @@ export default function Chat() {
     } catch (error) {
       console.error("WebSocket setup error:", error);
     }
-  }, []);
+  }, [sessionId]);
 
   const { data: messages = [] } = useQuery({
-    queryKey: ["/api/chat/history"],
+    queryKey: ["/api/chat/history", sessionId],
     queryFn: async () => {
       try {
-        const result = await apiRequest("GET", "/api/chat/history");
+        const result = await apiRequest("GET", `/api/chat/history?sessionId=${sessionId}`);
         if (Array.isArray(result)) {
           return result.map((msg: any) => ({
             ...msg,
@@ -152,20 +162,43 @@ export default function Chat() {
         return [];
       }
     },
+    enabled: !!sessionId,
+  });
+
+  const { mutate: updateSessionTitle } = useMutation({
+    mutationFn: ({ id, title }: { id: string; title: string }) =>
+      apiRequest("PATCH", `/api/chat/sessions/${id}`, { title }),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["/api/chat/sessions"] });
+    },
   });
 
   const { mutate: sendMessage, isPending } = useMutation({
     mutationFn: (content: string) =>
-      apiRequest("POST", "/api/chat/message", { content, role: "user" }),
-    onSuccess: () => {
+      apiRequest("POST", "/api/chat/message", { sessionId, content, role: "user" }),
+    onSuccess: (result: Message[]) => {
       setInput("");
-      queryClient.invalidateQueries({ queryKey: ["/api/chat/history"] });
+      queryClient.invalidateQueries({ queryKey: ["/api/chat/history", sessionId] });
+      
+      if (messages.length === 0 && result[0]) {
+        const firstMessage = result[0].content;
+        const title = firstMessage.length > 30 ? firstMessage.substring(0, 30) + "..." : firstMessage;
+        updateSessionTitle({ id: sessionId, title });
+      }
     },
   });
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
+
+  if (!sessionId) {
+    return (
+      <div className="flex-1 flex items-center justify-center">
+        <p className="text-muted-foreground">Select a chat or start a new one</p>
+      </div>
+    );
+  }
 
   return (
     <div className="flex-1 flex flex-col h-screen bg-background">

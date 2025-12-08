@@ -2,7 +2,7 @@ import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { WebSocketServer } from "ws";
 import { storage } from "./file-storage";
-import { insertChatMessageSchema, insertDatabaseSchema, insertDatabaseTableSchema, insertTableRowSchema, insertUploadedDocumentSchema } from "@shared/schema";
+import { insertChatMessageSchema, insertChatSessionSchema, insertDatabaseSchema, insertDatabaseTableSchema, insertTableRowSchema, insertUploadedDocumentSchema } from "@shared/schema";
 import { processNaturalLanguageCommand, generateChatResponse, extractTablesFromDocument, extractDataFromFile } from "./gemini";
 import multer from "multer";
 import path from "path";
@@ -41,7 +41,47 @@ export async function registerRoutes(app: Express): Promise<Server> {
     });
   }
 
-  // Chat routes
+  // Chat session routes
+  app.post("/api/chat/sessions", async (req, res) => {
+    try {
+      const validated = insertChatSessionSchema.parse(req.body);
+      const session = await storage.createChatSession(validated);
+      broadcast({ type: "session_created", session });
+      res.json(session);
+    } catch (error: any) {
+      res.status(400).json({ error: error.message || "Invalid session" });
+    }
+  });
+
+  app.get("/api/chat/sessions", async (req, res) => {
+    const sessions = await storage.getChatSessions();
+    res.json(sessions);
+  });
+
+  app.get("/api/chat/sessions/:id", async (req, res) => {
+    const session = await storage.getChatSession(req.params.id);
+    if (!session) return res.status(404).json({ error: "Session not found" });
+    res.json(session);
+  });
+
+  app.patch("/api/chat/sessions/:id", async (req, res) => {
+    try {
+      const { title } = req.body;
+      const session = await storage.updateChatSessionTitle(req.params.id, title);
+      broadcast({ type: "session_updated", session });
+      res.json(session);
+    } catch (error: any) {
+      res.status(400).json({ error: error.message || "Update failed" });
+    }
+  });
+
+  app.delete("/api/chat/sessions/:id", async (req, res) => {
+    await storage.deleteChatSession(req.params.id);
+    broadcast({ type: "session_deleted", sessionId: req.params.id });
+    res.json({ success: true });
+  });
+
+  // Chat message routes
   app.post("/api/chat/message", async (req, res) => {
     try {
       const validated = insertChatMessageSchema.parse(req.body);
@@ -104,7 +144,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
               dbName = db.name;
             } else {
               responseText = `❌ Database "${details.databaseName}" not found. Create it first by saying "create database ${details.databaseName}"`;
-              const aiMessage = await storage.addChatMessage({ content: responseText, role: "assistant" });
+              const aiMessage = await storage.addChatMessage({ sessionId: validated.sessionId, content: responseText, role: "assistant" });
               broadcast({ type: "chat", message: aiMessage });
               return res.json([userMessage, aiMessage]);
             }
@@ -118,7 +158,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
           const existingTable = await storage.getTableByName(details.name, databaseId);
           if (existingTable) {
             responseText = `❌ Table "${details.name}" already exists in database "${dbName}". Use a different name or delete the existing table first.`;
-            const aiMessage = await storage.addChatMessage({ content: responseText, role: "assistant" });
+            const aiMessage = await storage.addChatMessage({ sessionId: validated.sessionId, content: responseText, role: "assistant" });
             broadcast({ type: "chat", message: aiMessage });
             return res.json([userMessage, aiMessage]);
           }
@@ -275,6 +315,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
       // Save AI response
       const aiMessage = await storage.addChatMessage({
+        sessionId: validated.sessionId,
         content: String(responseText || ""),
         role: "assistant"
       });
@@ -288,7 +329,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
   });
 
   app.get("/api/chat/history", async (req, res) => {
-    const history = await storage.getChatHistory();
+    const sessionId = req.query.sessionId as string | undefined;
+    const history = await storage.getChatHistory(sessionId);
     res.json(history);
   });
 

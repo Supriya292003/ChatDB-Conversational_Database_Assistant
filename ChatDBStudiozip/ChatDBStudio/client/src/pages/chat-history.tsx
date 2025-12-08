@@ -1,50 +1,88 @@
 import { useQuery } from "@tanstack/react-query";
+import { Link } from "wouter";
 import { Card } from "@/components/ui/card";
-import { Loader2 } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Loader2, MessageSquare, ChevronRight } from "lucide-react";
 import { apiRequest } from "@/lib/queryClient";
+
+interface ChatSession {
+  id: string;
+  title: string;
+  createdAt: string;
+  updatedAt: string;
+}
 
 interface Message {
   id: string;
+  sessionId: string | null;
   content: string;
   role: "user" | "assistant";
   createdAt: string;
 }
 
 export default function ChatHistory() {
-  const { data: messages = [], isLoading } = useQuery<Message[]>({
-    queryKey: ["/api/chat/history"],
+  const { data: sessions = [], isLoading: sessionsLoading } = useQuery<ChatSession[]>({
+    queryKey: ["/api/chat/sessions"],
     queryFn: async () => {
-      const result = await apiRequest("GET", "/api/chat/history");
+      const result = await apiRequest("GET", "/api/chat/sessions");
       return Array.isArray(result) ? result : [];
     },
   });
 
+  const formatDate = (dateString: string) => {
+    const date = new Date(dateString);
+    const now = new Date();
+    const diffTime = now.getTime() - date.getTime();
+    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+    
+    if (diffDays === 0) {
+      return `Today at ${date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`;
+    } else if (diffDays === 1) {
+      return `Yesterday at ${date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`;
+    } else if (diffDays < 7) {
+      return `${diffDays} days ago`;
+    } else {
+      return date.toLocaleDateString();
+    }
+  };
+
   return (
-    <div className="flex-1 flex flex-col h-screen bg-background p-6">
+    <div className="flex-1 flex flex-col h-screen bg-background p-6 overflow-auto">
       <div className="mb-6">
         <h1 className="text-3xl font-bold mb-2">Chat History</h1>
-        <p className="text-muted-foreground">View all previous conversations</p>
+        <p className="text-muted-foreground">View all your previous conversations</p>
       </div>
 
-      {isLoading ? (
+      {sessionsLoading ? (
         <div className="flex justify-center items-center flex-1">
           <Loader2 className="w-8 h-8 animate-spin text-primary" />
         </div>
-      ) : Array.isArray(messages) && messages.length === 0 ? (
+      ) : sessions.length === 0 ? (
         <div className="flex justify-center items-center flex-1">
           <div className="text-center">
-            <p className="text-muted-foreground">No chat history yet. Start a conversation!</p>
+            <MessageSquare className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
+            <p className="text-muted-foreground">No chat history yet. Start a new conversation!</p>
           </div>
         </div>
       ) : (
         <div className="space-y-3 max-w-3xl mx-auto w-full">
-          {Array.isArray(messages) && messages.map((msg: Message) => (
-            <Card key={msg.id} className={`p-4 ${msg.role === "user" ? "bg-primary text-primary-foreground ml-auto max-w-xl" : "bg-card"}`} data-testid={`message-history-${msg.id}`}>
-              <div className="text-xs text-muted-foreground mb-1">
-                {msg.role === "user" ? "You" : "ChatDB"} • {new Date(msg.createdAt).toLocaleTimeString()}
-              </div>
-              <p className="text-sm">{msg.content}</p>
-            </Card>
+          {sessions.map((session) => (
+            <Link key={session.id} href={`/chat/${session.id}`}>
+              <Card className="p-4 hover:bg-muted/50 transition-colors cursor-pointer">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-3 min-w-0">
+                    <MessageSquare className="w-5 h-5 text-muted-foreground shrink-0" />
+                    <div className="min-w-0">
+                      <h3 className="font-medium truncate">{session.title}</h3>
+                      <p className="text-xs text-muted-foreground">
+                        {formatDate(session.updatedAt)}
+                      </p>
+                    </div>
+                  </div>
+                  <ChevronRight className="w-5 h-5 text-muted-foreground shrink-0" />
+                </div>
+              </Card>
+            </Link>
           ))}
         </div>
       )}

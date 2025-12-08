@@ -1,6 +1,8 @@
 import { 
   type ChatMessage, 
   type InsertChatMessage,
+  type ChatSession,
+  type InsertChatSession,
   type Database,
   type InsertDatabase,
   type DatabaseTable,
@@ -16,6 +18,7 @@ import * as path from "path";
 import { IStorage } from "./storage";
 
 const DATA_DIR = path.join(process.cwd(), "ChatDBStudio", "data");
+const SESSIONS_FILE = path.join(DATA_DIR, "sessions.json");
 const MESSAGES_FILE = path.join(DATA_DIR, "messages.json");
 const DATABASES_FILE = path.join(DATA_DIR, "databases.json");
 const TABLES_FILE = path.join(DATA_DIR, "tables.json");
@@ -47,6 +50,7 @@ function saveJson(filePath: string, data: any) {
 }
 
 export class FileStorage implements IStorage {
+  private sessions: Map<string, ChatSession>;
   private messages: Map<string, ChatMessage>;
   private databases: Map<string, Database>;
   private tables: Map<string, DatabaseTable>;
@@ -54,17 +58,23 @@ export class FileStorage implements IStorage {
   private documents: Map<string, UploadedDocument>;
 
   constructor() {
+    const sessionsData = loadJson<Record<string, ChatSession>>(SESSIONS_FILE, {});
     const messagesData = loadJson<Record<string, ChatMessage>>(MESSAGES_FILE, {});
     const databasesData = loadJson<Record<string, Database>>(DATABASES_FILE, {});
     const tablesData = loadJson<Record<string, DatabaseTable>>(TABLES_FILE, {});
     const rowsData = loadJson<Record<string, TableRow>>(ROWS_FILE, {});
     const documentsData = loadJson<Record<string, UploadedDocument>>(DOCUMENTS_FILE, {});
 
+    this.sessions = new Map(Object.entries(sessionsData));
     this.messages = new Map(Object.entries(messagesData));
     this.databases = new Map(Object.entries(databasesData));
     this.tables = new Map(Object.entries(tablesData));
     this.rows = new Map(Object.entries(rowsData));
     this.documents = new Map(Object.entries(documentsData));
+  }
+
+  private saveSessions() {
+    saveJson(SESSIONS_FILE, Object.fromEntries(this.sessions));
   }
 
   private saveMessages() {
@@ -85,6 +95,60 @@ export class FileStorage implements IStorage {
 
   private saveDocuments() {
     saveJson(DOCUMENTS_FILE, Object.fromEntries(this.documents));
+  }
+
+  // Chat Session operations
+  async createChatSession(session: InsertChatSession): Promise<ChatSession> {
+    const id = randomUUID();
+    const chatSession: ChatSession = {
+      id,
+      title: session.title,
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    };
+    this.sessions.set(id, chatSession);
+    this.saveSessions();
+    return chatSession;
+  }
+
+  async getChatSessions(): Promise<ChatSession[]> {
+    return Array.from(this.sessions.values()).sort(
+      (a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()
+    );
+  }
+
+  async getChatSession(id: string): Promise<ChatSession | undefined> {
+    return this.sessions.get(id);
+  }
+
+  async updateChatSessionTitle(id: string, title: string): Promise<ChatSession> {
+    const session = this.sessions.get(id);
+    if (!session) throw new Error("Session not found");
+    session.title = title;
+    session.updatedAt = new Date();
+    this.sessions.set(id, session);
+    this.saveSessions();
+    return session;
+  }
+
+  async deleteChatSession(id: string): Promise<void> {
+    this.sessions.delete(id);
+    Array.from(this.messages.values())
+      .filter(m => m.sessionId === id)
+      .forEach(m => this.messages.delete(m.id));
+    this.saveSessions();
+    this.saveMessages();
+  }
+
+  async clearChatHistory(sessionId?: string): Promise<void> {
+    if (sessionId) {
+      Array.from(this.messages.values())
+        .filter(m => m.sessionId === sessionId)
+        .forEach(m => this.messages.delete(m.id));
+    } else {
+      this.messages.clear();
+    }
+    this.saveMessages();
   }
 
   async createDatabase(database: InsertDatabase): Promise<Database> {
@@ -150,18 +214,33 @@ export class FileStorage implements IStorage {
     const id = randomUUID();
     const chatMessage: ChatMessage = {
       id,
+      sessionId: message.sessionId || null,
       content: message.content,
       role: message.role,
       createdAt: new Date(),
     };
     this.messages.set(id, chatMessage);
     this.saveMessages();
+    
+    if (message.sessionId) {
+      const session = this.sessions.get(message.sessionId);
+      if (session) {
+        session.updatedAt = new Date();
+        this.sessions.set(message.sessionId, session);
+        this.saveSessions();
+      }
+    }
+    
     return chatMessage;
   }
 
-  async getChatHistory(): Promise<ChatMessage[]> {
-    return Array.from(this.messages.values()).sort(
-      (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+  async getChatHistory(sessionId?: string): Promise<ChatMessage[]> {
+    let messages = Array.from(this.messages.values());
+    if (sessionId) {
+      messages = messages.filter(m => m.sessionId === sessionId);
+    }
+    return messages.sort(
+      (a, b) => new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime()
     );
   }
 
