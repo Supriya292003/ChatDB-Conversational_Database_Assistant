@@ -1,0 +1,62 @@
+{
+  "d4cc2ebf-b4b0-4f9f-99bc-941da8ed168e": {
+    "id": "d4cc2ebf-b4b0-4f9f-99bc-941da8ed168e",
+    "content": "hi",
+    "role": "user",
+    "createdAt": "2025-12-03T09:04:55.179Z"
+  },
+  "4b091a35-3fa2-4663-bc9e-41c38d44d040": {
+    "id": "4b091a35-3fa2-4663-bc9e-41c38d44d040",
+    "content": "Hi there! What can I help you with today? I can help you create and manage database tables.",
+    "role": "assistant",
+    "createdAt": "2025-12-03T09:04:55.182Z"
+  },
+  "6577b890-6115-48ae-976d-e21872b8e925": {
+    "id": "6577b890-6115-48ae-976d-e21872b8e925",
+    "content": "create database school",
+    "role": "user",
+    "createdAt": "2025-12-03T09:05:05.551Z"
+  },
+  "080cd0cd-1ef2-430c-87c3-e6ce959e09ec": {
+    "id": "080cd0cd-1ef2-430c-87c3-e6ce959e09ec",
+    "content": "✓ Created database \"school\" successfully! You can now add tables to it by saying \"create table student with id, name in database school\"",
+    "role": "assistant",
+    "createdAt": "2025-12-03T09:05:05.553Z"
+  },
+  "9c4d0b52-1669-4688-823b-8dd16f855f28": {
+    "id": "9c4d0b52-1669-4688-823b-8dd16f855f28",
+    "content": "create table student in school with id, name, email\n",
+    "role": "user",
+    "createdAt": "2025-12-03T09:05:40.933Z"
+  },
+  "9f9a3b0b-dc15-4b97-9ce3-213774a841b0": {
+    "id": "9f9a3b0b-dc15-4b97-9ce3-213774a841b0",
+    "content": "Processing: create table student in school with id, name, email\n",
+    "role": "assistant",
+    "createdAt": "2025-12-03T09:05:40.935Z"
+  },
+  "7b03b2d3-7e8b-44ab-acec-6af1576f4b23": {
+    "id": "7b03b2d3-7e8b-44ab-acec-6af1576f4b23",
+    "content": "create table student with id, name in database school",
+    "role": "user",
+    "createdAt": "2025-12-03T09:05:53.093Z"
+  },
+  "68b3e996-e126-472b-8782-2db6a852afa6": {
+    "id": "68b3e996-e126-472b-8782-2db6a852afa6",
+    "content": "✓ Created table \"student\" in database \"school\" with columns: id(integer), name(text)",
+    "role": "assistant",
+    "createdAt": "2025-12-03T09:05:53.096Z"
+  },
+  "0dac2ac0-7e4c-43a3-b4d2-67e94edf4363": {
+    "id": "0dac2ac0-7e4c-43a3-b4d2-67e94edf4363",
+    "content": "insert into student values 101, Asha, asha@gmail.com\n",
+    "role": "user",
+    "createdAt": "2025-12-03T09:06:11.499Z"
+  },
+  "71b94832-eaa7-4881-b5c7-89933879cb6b": {
+    "id": "71b94832-eaa7-4881-b5c7-89933879cb6b",
+    "content": "✓ Inserted row into \"student\" with values: 101, Asha, asha@gmail.com",
+    "role": "assistant",
+    "createdAt": "2025-12-03T09:06:11.505Z"
+  }
+}
