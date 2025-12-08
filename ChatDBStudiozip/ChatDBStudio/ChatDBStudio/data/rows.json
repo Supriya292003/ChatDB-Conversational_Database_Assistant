@@ -1215,5 +1215,14 @@
       "name": "Asha"
     },
     "createdAt": "2025-12-03T09:06:11.502Z"
+  },
+  "c190c78a-ce48-43eb-9aa4-cc25ea54fac3": {
+    "id": "c190c78a-ce48-43eb-9aa4-cc25ea54fac3",
+    "tableId": "ae1da510-fa5b-4794-b0a1-0fd6415046fa",
+    "data": {
+      "id": "1",
+      "name": "Math"
+    },
+    "createdAt": "2025-12-08T02:56:16.906Z"
   }
 }

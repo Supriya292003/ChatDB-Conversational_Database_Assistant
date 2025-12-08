@@ -86,5 +86,61 @@
     "content": "Processing: create a table course with id, name\n",
     "role": "assistant",
     "createdAt": "2025-12-08T02:54:52.865Z"
+  },
+  "37d81632-090a-4809-b4f2-f358a741caa0": {
+    "id": "37d81632-090a-4809-b4f2-f358a741caa0",
+    "sessionId": "b90a04ba-3312-4055-86b5-1aba1e059298",
+    "content": "create a table course with id, name in database school",
+    "role": "user",
+    "createdAt": "2025-12-08T02:55:47.272Z"
+  },
+  "5a6ca054-3b2c-4f48-ad4a-fdbc4704ab91": {
+    "id": "5a6ca054-3b2c-4f48-ad4a-fdbc4704ab91",
+    "sessionId": "b90a04ba-3312-4055-86b5-1aba1e059298",
+    "content": "✓ Created table \"course\" in database \"school\" with columns: id(integer), name(text)",
+    "role": "assistant",
+    "createdAt": "2025-12-08T02:55:47.274Z"
+  },
+  "21d2bd88-3060-4bf0-a3b2-3997a8be6ec5": {
+    "id": "21d2bd88-3060-4bf0-a3b2-3997a8be6ec5",
+    "sessionId": "b90a04ba-3312-4055-86b5-1aba1e059298",
+    "content": "create a table course1 with id, name\n",
+    "role": "user",
+    "createdAt": "2025-12-08T02:56:02.546Z"
+  },
+  "150f76ed-bcf4-4fa2-988b-a1399491d2bb": {
+    "id": "150f76ed-bcf4-4fa2-988b-a1399491d2bb",
+    "sessionId": "b90a04ba-3312-4055-86b5-1aba1e059298",
+    "content": "Processing: create a table course1 with id, name\n",
+    "role": "assistant",
+    "createdAt": "2025-12-08T02:56:02.547Z"
+  },
+  "f9ba78b0-2273-4bd2-8b8c-aacbcece87b5": {
+    "id": "f9ba78b0-2273-4bd2-8b8c-aacbcece87b5",
+    "sessionId": "b90a04ba-3312-4055-86b5-1aba1e059298",
+    "content": "insert into course values 1, Math\n",
+    "role": "user",
+    "createdAt": "2025-12-08T02:56:16.904Z"
+  },
+  "e9190898-7bb3-42b3-9fad-b640cc3f2de9": {
+    "id": "e9190898-7bb3-42b3-9fad-b640cc3f2de9",
+    "sessionId": "b90a04ba-3312-4055-86b5-1aba1e059298",
+    "content": "✓ Inserted row into \"course\" with values: 1, Math",
+    "role": "assistant",
+    "createdAt": "2025-12-08T02:56:16.907Z"
+  },
+  "8abe6850-1122-428d-85eb-5953ac9f3a26": {
+    "id": "8abe6850-1122-428d-85eb-5953ac9f3a26",
+    "sessionId": "b90a04ba-3312-4055-86b5-1aba1e059298",
+    "content": "show all table",
+    "role": "user",
+    "createdAt": "2025-12-08T02:56:38.462Z"
+  },
+  "a7a6d592-220e-4537-951c-09b328230444": {
+    "id": "a7a6d592-220e-4537-951c-09b328230444",
+    "sessionId": "b90a04ba-3312-4055-86b5-1aba1e059298",
+    "content": "📊 Found 4 table(s):\n• imported_csv (5 columns)\n• internal_assessment_test_contin (13 columns)\n• student (2 columns)\n• course (2 columns)",
+    "role": "assistant",
+    "createdAt": "2025-12-08T02:56:38.463Z"
   }
 }

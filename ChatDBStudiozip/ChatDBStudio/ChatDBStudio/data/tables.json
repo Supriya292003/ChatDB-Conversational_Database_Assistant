@@ -112,5 +112,22 @@
       }
     },
     "createdAt": "2025-12-03T09:05:53.095Z"
+  },
+  "ae1da510-fa5b-4794-b0a1-0fd6415046fa": {
+    "id": "ae1da510-fa5b-4794-b0a1-0fd6415046fa",
+    "databaseId": "b03647d9-7b9a-4e6a-b332-548ae3466110",
+    "name": "course",
+    "columns": [
+      {
+        "name": "id",
+        "type": "integer"
+      },
+      {
+        "name": "name",
+        "type": "text"
+      }
+    ],
+    "positions": {},
+    "createdAt": "2025-12-08T02:55:47.274Z"
   }
 }
