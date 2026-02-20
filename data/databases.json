@@ -1,0 +1,14 @@
+{
+  "85136901-0c21-4cd1-aa73-e2c0b64126f1": {
+    "id": "85136901-0c21-4cd1-aa73-e2c0b64126f1",
+    "name": "default",
+    "description": "Default database for tables",
+    "createdAt": "2025-12-03T03:23:00.287Z"
+  },
+  "728bd022-fdeb-4bb3-bc7c-368e235ea7bc": {
+    "id": "728bd022-fdeb-4bb3-bc7c-368e235ea7bc",
+    "name": "college",
+    "description": null,
+    "createdAt": "2026-02-01T15:48:12.554Z"
+  }
+}

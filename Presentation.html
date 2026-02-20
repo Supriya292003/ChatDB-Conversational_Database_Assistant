@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatDBStudio - Project Presentation</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #0f172a; color: #f8fafc; }
+        .slide { min-height: 100vh; padding: 60px 80px; display: flex; flex-direction: column; justify-content: center; border-bottom: 3px solid #3b82f6; page-break-after: always; }
+        .slide-number { position: absolute; top: 20px; right: 40px; color: #64748b; font-size: 14px; }
+        h1 { font-size: 48px; color: #3b82f6; margin-bottom: 20px; }
+        h2 { font-size: 36px; color: #60a5fa; margin-bottom: 30px; border-bottom: 2px solid #3b82f6; padding-bottom: 10px; }
+        h3 { font-size: 24px; color: #93c5fd; margin: 20px 0 10px; }
+        p, li { font-size: 20px; line-height: 1.8; color: #e2e8f0; }
+        ul { margin-left: 40px; }
+        li { margin: 12px 0; }
+        .highlight { color: #22d3ee; font-weight: bold; }
+        .tech-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 30px; }
+        .tech-card { background: #1e293b; padding: 25px; border-radius: 12px; border-left: 4px solid #3b82f6; }
+        .tech-card h3 { color: #60a5fa; margin-bottom: 15px; }
+        .feature-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 25px; margin-top: 20px; }
+        .feature-card { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); padding: 25px; border-radius: 12px; border: 1px solid #334155; }
+        .title-slide { text-align: center; background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%); }
+        .title-slide h1 { font-size: 72px; margin-bottom: 20px; background: linear-gradient(90deg, #3b82f6, #22d3ee); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .title-slide .subtitle { font-size: 28px; color: #94a3b8; margin-bottom: 40px; }
+        .title-slide .info { font-size: 18px; color: #64748b; margin-top: 60px; }
+        .diagram { background: #1e293b; padding: 30px; border-radius: 12px; margin: 20px 0; text-align: center; }
+        .table-style { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        .table-style th, .table-style td { padding: 15px 20px; text-align: left; border: 1px solid #334155; }
+        .table-style th { background: #3b82f6; color: white; }
+        .table-style tr:nth-child(even) { background: #1e293b; }
+        .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+        .icon { font-size: 40px; margin-bottom: 15px; }
+        .conclusion-box { background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%); padding: 40px; border-radius: 16px; border: 2px solid #3b82f6; margin-top: 30px; }
+        @media print { .slide { page-break-after: always; } }
+    </style>
+</head>
+<body>
+
+<!-- SLIDE 1: Title Slide -->
+<div class="slide title-slide">
+    <h1>ChatDBStudio</h1>
+    <p class="subtitle">AI-Powered Database Management System</p>
+    <p style="font-size: 24px; color: #60a5fa;">Natural Language Database Operations Made Simple</p>
+    <div class="info">
+        <p>Project Demonstration</p>
+        <p style="margin-top: 20px;">December 2024</p>
+    </div>
+</div>
+
+<!-- SLIDE 2: Abstract -->
+<div class="slide">
+    <h2>Abstract</h2>
+    <div style="background: #1e293b; padding: 40px; border-radius: 16px; border-left: 5px solid #3b82f6;">
+        <p style="font-size: 22px; line-height: 2;">
+            <span class="highlight">ChatDBStudio</span> is an innovative AI-powered database management application that revolutionizes 
+            how users interact with databases. Unlike traditional database tools requiring SQL expertise, ChatDBStudio enables users 
+            to perform complex database operations using <span class="highlight">natural language commands</span>.
+        </p>
+        <br>
+        <p style="font-size: 22px; line-height: 2;">
+            Powered by <span class="highlight">Google Gemini AI</span>, the system interprets user intent and automatically translates 
+            conversational English into database operations. Users can create databases, design tables, insert data, query information, 
+            and visualize relationships - all through a simple chat interface.
+        </p>
+        <br>
+        <p style="font-size: 22px; line-height: 2;">
+            The application also supports <span class="highlight">automatic data import</span> from Excel, CSV, PDF, and image files, 
+            making it an ideal solution for non-technical users who need database functionality without the learning curve.
+        </p>
+    </div>
+</div>
+
+<!-- SLIDE 3: Introduction -->
+<div class="slide">
+    <h2>Introduction</h2>
+    <h3>Problem Statement</h3>
+    <ul>
+        <li>Traditional database management requires <span class="highlight">SQL knowledge</span></li>
+        <li>Complex interfaces intimidate non-technical users</li>
+        <li>Manual data entry from documents is time-consuming</li>
+        <li>Visualizing database relationships requires specialized tools</li>
+    </ul>
+    
+    <h3 style="margin-top: 40px;">Our Solution</h3>
+    <ul>
+        <li><span class="highlight">Conversational AI Interface</span> - Talk to your database naturally</li>
+        <li><span class="highlight">Automatic Data Extraction</span> - Import from PDFs, Excel, Images</li>
+        <li><span class="highlight">Visual Tools</span> - ER Diagrams and Charts built-in</li>
+        <li><span class="highlight">Real-time Updates</span> - WebSocket-powered live synchronization</li>
+    </ul>
+</div>
+
+<!-- SLIDE 4: Key Features -->
+<div class="slide">
+    <h2>Key Features</h2>
+    <div class="feature-grid">
+        <div class="feature-card">
+            <div class="icon">💬</div>
+            <h3>Natural Language Chat</h3>
+            <p>Create tables, insert data, and query information using everyday English commands</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon">📊</div>
+            <h3>Database Explorer</h3>
+            <p>Visual interface to browse, edit, and manage all databases, tables, and rows</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon">🔗</div>
+            <h3>ER Diagram Generator</h3>
+            <p>Automatic visualization of database schema with drag-and-drop entities</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon">📈</div>
+            <h3>Chart Generator</h3>
+            <p>Create bar, line, and pie charts directly from your database tables</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon">📁</div>
+            <h3>Smart File Import</h3>
+            <p>Extract tables from Excel, CSV, PDF, and images using AI</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon">⚡</div>
+            <h3>Real-time Sync</h3>
+            <p>WebSocket-powered live updates across all connected clients</p>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 5: Technology Stack -->
+<div class="slide">
+    <h2>Technology Stack</h2>
+    <div class="tech-grid">
+        <div class="tech-card">
+            <h3>Frontend</h3>
+            <ul>
+                <li><span class="highlight">React 18</span> - UI Library</li>
+                <li><span class="highlight">TypeScript</span> - Type Safety</li>
+                <li><span class="highlight">Tailwind CSS</span> - Styling</li>
+                <li><span class="highlight">Radix UI</span> - Components</li>
+                <li><span class="highlight">Recharts</span> - Data Visualization</li>
+                <li><span class="highlight">Framer Motion</span> - Animations</li>
+                <li><span class="highlight">TanStack Query</span> - State Management</li>
+            </ul>
+        </div>
+        <div class="tech-card">
+            <h3>Backend</h3>
+            <ul>
+                <li><span class="highlight">Node.js</span> - Runtime</li>
+                <li><span class="highlight">Express.js</span> - Web Framework</li>
+                <li><span class="highlight">WebSocket (ws)</span> - Real-time</li>
+                <li><span class="highlight">Drizzle ORM</span> - Database ORM</li>
+                <li><span class="highlight">Multer</span> - File Uploads</li>
+                <li><span class="highlight">Zod</span> - Validation</li>
+            </ul>
+        </div>
+        <div class="tech-card">
+            <h3>AI & Database</h3>
+            <ul>
+                <li><span class="highlight">Google Gemini AI</span> - NLP Engine</li>
+                <li><span class="highlight">PostgreSQL</span> - Database</li>
+                <li><span class="highlight">Neon Serverless</span> - DB Hosting</li>
+                <li><span class="highlight">pdf-parse</span> - PDF Processing</li>
+                <li><span class="highlight">xlsx</span> - Excel Processing</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 6: System Architecture -->
+<div class="slide">
+    <h2>System Architecture</h2>
+    <div class="diagram">
+        <pre style="font-size: 16px; text-align: left; color: #60a5fa;">
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                                   CLIENT LAYER                                   │
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐            │
+│  │  Chat UI    │  │  Database   │  │ ER Diagram  │  │   Charts    │            │
+│  │  Interface  │  │  Explorer   │  │   Editor    │  │  Generator  │            │
+│  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘            │
+│         └─────────────────┴────────────────┴────────────────┘                   │
+│                                     │                                            │
+│                          React + TanStack Query                                  │
+└─────────────────────────────────────┼────────────────────────────────────────────┘
+                                      │ HTTP/WebSocket
+┌─────────────────────────────────────┼────────────────────────────────────────────┐
+│                              API LAYER (Express.js)                              │
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐            │
+│  │  REST API   │  │  WebSocket  │  │  File Upload│  │   NLP       │            │
+│  │  Routes     │  │   Server    │  │   Handler   │  │  Processor  │            │
+│  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘            │
+└─────────┴────────────────┴────────────────┴────────────────┴─────────────────────┘
+                                      │
+┌─────────────────────────────────────┼────────────────────────────────────────────┐
+│                              SERVICE LAYER                                       │
+│  ┌─────────────────────────┐       ┌─────────────────────────────────┐          │
+│  │   Google Gemini AI      │       │      Storage Service            │          │
+│  │   - NLP Processing      │       │      - CRUD Operations          │          │
+│  │   - Image Analysis      │       │      - Data Validation          │          │
+│  │   - Table Extraction    │       │      - Query Execution          │          │
+│  └─────────────────────────┘       └────────────────┬────────────────┘          │
+└────────────────────────────────────────────────────┬─────────────────────────────┘
+                                                      │
+┌─────────────────────────────────────────────────────┼─────────────────────────────┐
+│                              DATABASE LAYER                                       │
+│                    ┌────────────────────────────────┴─────────┐                   │
+│                    │         PostgreSQL (Neon)                 │                   │
+│                    │  ┌──────────┐ ┌──────────┐ ┌──────────┐  │                   │
+│                    │  │ Sessions │ │  Tables  │ │   Rows   │  │                   │
+│                    │  └──────────┘ └──────────┘ └──────────┘  │                   │
+│                    └──────────────────────────────────────────┘                   │
+└───────────────────────────────────────────────────────────────────────────────────┘
+        </pre>
+    </div>
+</div>
+
+<!-- SLIDE 7: Database Schema -->
+<div class="slide">
+    <h2>Database Schema</h2>
+    <table class="table-style">
+        <tr>
+            <th>Table Name</th>
+            <th>Purpose</th>
+            <th>Key Fields</th>
+        </tr>
+        <tr>
+            <td><span class="highlight">chat_sessions</span></td>
+            <td>Stores conversation sessions</td>
+            <td>id, title, created_at, updated_at</td>
+        </tr>
+        <tr>
+            <td><span class="highlight">chat_messages</span></td>
+            <td>Individual chat messages</td>
+            <td>id, session_id, content, role, created_at</td>
+        </tr>
+        <tr>
+            <td><span class="highlight">databases</span></td>
+            <td>User-created database containers</td>
+            <td>id, name, description, created_at</td>
+        </tr>
+        <tr>
+            <td><span class="highlight">database_tables</span></td>
+            <td>Tables within databases</td>
+            <td>id, database_id, name, columns (JSON), positions</td>
+        </tr>
+        <tr>
+            <td><span class="highlight">table_rows</span></td>
+            <td>Data rows in tables</td>
+            <td>id, table_id, data (JSON), created_at</td>
+        </tr>
+        <tr>
+            <td><span class="highlight">uploaded_documents</span></td>
+            <td>Imported file metadata</td>
+            <td>id, filename, content, extracted_tables</td>
+        </tr>
+    </table>
+</div>
+
+<!-- SLIDE 8: Natural Language Commands -->
+<div class="slide">
+    <h2>Natural Language Commands</h2>
+    <p style="margin-bottom: 30px;">Users can perform database operations using simple English:</p>
+    
+    <div class="two-col">
+        <div>
+            <h3>Create Operations</h3>
+            <div style="background: #1e293b; padding: 20px; border-radius: 8px; margin: 10px 0;">
+                <code style="color: #22d3ee;">"Create database school"</code>
+            </div>
+            <div style="background: #1e293b; padding: 20px; border-radius: 8px; margin: 10px 0;">
+                <code style="color: #22d3ee;">"Create table student with id, name, email"</code>
+            </div>
+            
+            <h3 style="margin-top: 30px;">Insert Operations</h3>
+            <div style="background: #1e293b; padding: 20px; border-radius: 8px; margin: 10px 0;">
+                <code style="color: #22d3ee;">"Insert into student values 101, John, john@email.com"</code>
+            </div>
+        </div>
+        <div>
+            <h3>Query Operations</h3>
+            <div style="background: #1e293b; padding: 20px; border-radius: 8px; margin: 10px 0;">
+                <code style="color: #22d3ee;">"Show all tables"</code>
+            </div>
+            <div style="background: #1e293b; padding: 20px; border-radius: 8px; margin: 10px 0;">
+                <code style="color: #22d3ee;">"Show student table"</code>
+            </div>
+            
+            <h3 style="margin-top: 30px;">Update & Delete</h3>
+            <div style="background: #1e293b; padding: 20px; border-radius: 8px; margin: 10px 0;">
+                <code style="color: #22d3ee;">"Update student set name = Jane where id = 101"</code>
+            </div>
+            <div style="background: #1e293b; padding: 20px; border-radius: 8px; margin: 10px 0;">
+                <code style="color: #22d3ee;">"Delete from student where id = 101"</code>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 9: Software Requirements -->
+<div class="slide">
+    <h2>Software Requirements</h2>
+    <div class="two-col">
+        <div>
+            <h3>Development Environment</h3>
+            <table class="table-style">
+                <tr><th>Software</th><th>Version</th></tr>
+                <tr><td>Node.js</td><td>v18.x or higher</td></tr>
+                <tr><td>npm</td><td>v9.x or higher</td></tr>
+                <tr><td>TypeScript</td><td>v5.x</td></tr>
+                <tr><td>PostgreSQL</td><td>v14 or higher</td></tr>
+                <tr><td>VS Code</td><td>Latest</td></tr>
+                <tr><td>Git</td><td>v2.x</td></tr>
+            </table>
+        </div>
+        <div>
+            <h3>Runtime Dependencies</h3>
+            <table class="table-style">
+                <tr><th>Category</th><th>Packages</th></tr>
+                <tr><td>Framework</td><td>React 18, Express.js</td></tr>
+                <tr><td>Database</td><td>Drizzle ORM, Neon</td></tr>
+                <tr><td>AI</td><td>Google Gemini API</td></tr>
+                <tr><td>Real-time</td><td>WebSocket (ws)</td></tr>
+                <tr><td>Styling</td><td>Tailwind CSS, Radix UI</td></tr>
+                <tr><td>Build</td><td>Vite, ESBuild</td></tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 10: Hardware Requirements -->
+<div class="slide">
+    <h2>Hardware Requirements</h2>
+    <div class="two-col">
+        <div>
+            <h3>Minimum Requirements</h3>
+            <table class="table-style">
+                <tr><th>Component</th><th>Specification</th></tr>
+                <tr><td>Processor</td><td>Intel i3 / AMD Ryzen 3</td></tr>
+                <tr><td>RAM</td><td>4 GB</td></tr>
+                <tr><td>Storage</td><td>500 MB free space</td></tr>
+                <tr><td>Display</td><td>1280 x 720 resolution</td></tr>
+                <tr><td>Network</td><td>Broadband Internet</td></tr>
+                <tr><td>Browser</td><td>Chrome/Firefox/Edge</td></tr>
+            </table>
+        </div>
+        <div>
+            <h3>Recommended Requirements</h3>
+            <table class="table-style">
+                <tr><th>Component</th><th>Specification</th></tr>
+                <tr><td>Processor</td><td>Intel i5 / AMD Ryzen 5</td></tr>
+                <tr><td>RAM</td><td>8 GB or higher</td></tr>
+                <tr><td>Storage</td><td>1 GB SSD</td></tr>
+                <tr><td>Display</td><td>1920 x 1080 resolution</td></tr>
+                <tr><td>Network</td><td>High-speed Internet</td></tr>
+                <tr><td>Browser</td><td>Latest Chrome</td></tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 11: File Import Capabilities -->
+<div class="slide">
+    <h2>Smart File Import</h2>
+    <p style="margin-bottom: 30px;">ChatDBStudio can automatically extract tabular data from multiple file formats:</p>
+    
+    <div class="feature-grid">
+        <div class="feature-card">
+            <div class="icon">📊</div>
+            <h3>Excel Files (.xlsx, .xls)</h3>
+            <ul>
+                <li>Multi-sheet support</li>
+                <li>Automatic header detection</li>
+                <li>Data type inference</li>
+            </ul>
+        </div>
+        <div class="feature-card">
+            <div class="icon">📄</div>
+            <h3>CSV Files</h3>
+            <ul>
+                <li>Comma-separated parsing</li>
+                <li>Column type detection</li>
+                <li>Large file support</li>
+            </ul>
+        </div>
+        <div class="feature-card">
+            <div class="icon">📑</div>
+            <h3>PDF Documents</h3>
+            <ul>
+                <li>Text extraction</li>
+                <li>Table detection</li>
+                <li>Structured data parsing</li>
+            </ul>
+        </div>
+        <div class="feature-card">
+            <div class="icon">🖼️</div>
+            <h3>Images (PNG, JPG)</h3>
+            <ul>
+                <li>AI-powered OCR</li>
+                <li>Table recognition</li>
+                <li>Gemini Vision analysis</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 12: User Interface -->
+<div class="slide">
+    <h2>User Interface Modules</h2>
+    <div class="feature-grid">
+        <div class="feature-card">
+            <h3>1. Chat Interface</h3>
+            <p>Primary interaction point where users type natural language commands. Displays conversation history with AI responses.</p>
+        </div>
+        <div class="feature-card">
+            <h3>2. Database Explorer</h3>
+            <p>Hierarchical view of all databases and tables. Supports inline editing, row insertion, and deletion.</p>
+        </div>
+        <div class="feature-card">
+            <h3>3. ER Diagram Editor</h3>
+            <p>Visual schema designer with draggable entities. Shows primary keys, foreign keys, and relationships.</p>
+        </div>
+        <div class="feature-card">
+            <h3>4. Chart Generator</h3>
+            <p>Create bar, line, and pie charts from table data. Select columns for X and Y axes.</p>
+        </div>
+        <div class="feature-card">
+            <h3>5. Sidebar Navigation</h3>
+            <p>Quick access to recent chats, databases, and all modules. New chat creation button.</p>
+        </div>
+        <div class="feature-card">
+            <h3>6. Chat History</h3>
+            <p>Browse and search through past conversations. Resume previous sessions.</p>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 13: API Endpoints -->
+<div class="slide">
+    <h2>REST API Endpoints</h2>
+    <table class="table-style" style="font-size: 16px;">
+        <tr>
+            <th>Method</th>
+            <th>Endpoint</th>
+            <th>Description</th>
+        </tr>
+        <tr><td>POST</td><td>/api/chat/message</td><td>Send message & get AI response</td></tr>
+        <tr><td>GET</td><td>/api/chat/sessions</td><td>Get all chat sessions</td></tr>
+        <tr><td>POST</td><td>/api/chat/sessions</td><td>Create new session</td></tr>
+        <tr><td>GET</td><td>/api/databases</td><td>List all databases</td></tr>
+        <tr><td>POST</td><td>/api/databases</td><td>Create new database</td></tr>
+        <tr><td>GET</td><td>/api/tables</td><td>List all tables</td></tr>
+        <tr><td>POST</td><td>/api/tables</td><td>Create new table</td></tr>
+        <tr><td>GET</td><td>/api/rows/:tableId</td><td>Get rows from table</td></tr>
+        <tr><td>POST</td><td>/api/rows</td><td>Insert new row</td></tr>
+        <tr><td>POST</td><td>/api/upload</td><td>Upload file for import</td></tr>
+    </table>
+</div>
+
+<!-- SLIDE 14: Security Features -->
+<div class="slide">
+    <h2>Security & Best Practices</h2>
+    <div class="two-col">
+        <div>
+            <h3>Data Security</h3>
+            <ul>
+                <li><span class="highlight">Input Validation</span> - Zod schema validation</li>
+                <li><span class="highlight">SQL Injection Prevention</span> - Parameterized queries via ORM</li>
+                <li><span class="highlight">File Type Validation</span> - Whitelist allowed extensions</li>
+                <li><span class="highlight">Size Limits</span> - 10MB max file upload</li>
+                <li><span class="highlight">Environment Variables</span> - Secure API key storage</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Application Security</h3>
+            <ul>
+                <li><span class="highlight">CORS Configuration</span> - Controlled origins</li>
+                <li><span class="highlight">Type Safety</span> - TypeScript throughout</li>
+                <li><span class="highlight">Error Handling</span> - Graceful error responses</li>
+                <li><span class="highlight">Session Management</span> - Secure sessions</li>
+                <li><span class="highlight">Real-time Auth</span> - WebSocket validation</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 15: Future Enhancements -->
+<div class="slide">
+    <h2>Future Enhancements</h2>
+    <div class="feature-grid">
+        <div class="feature-card">
+            <h3>Advanced SQL Support</h3>
+            <p>Complex JOIN queries, aggregations, and subqueries through natural language</p>
+        </div>
+        <div class="feature-card">
+            <h3>User Authentication</h3>
+            <p>Multi-user support with role-based access control and permissions</p>
+        </div>
+        <div class="feature-card">
+            <h3>Export Features</h3>
+            <p>Export data to Excel, CSV, PDF reports with custom formatting</p>
+        </div>
+        <div class="feature-card">
+            <h3>Database Backup</h3>
+            <p>Automated backup and restore functionality for data safety</p>
+        </div>
+        <div class="feature-card">
+            <h3>Mobile App</h3>
+            <p>Native iOS and Android applications for on-the-go access</p>
+        </div>
+        <div class="feature-card">
+            <h3>Collaboration</h3>
+            <p>Real-time collaborative editing with multiple users</p>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 16: Conclusion -->
+<div class="slide">
+    <h2>Conclusion</h2>
+    <div class="conclusion-box">
+        <p style="font-size: 24px; line-height: 2; margin-bottom: 30px;">
+            <span class="highlight">ChatDBStudio</span> successfully bridges the gap between complex database management 
+            and user-friendly interfaces. By leveraging <span class="highlight">AI-powered natural language processing</span>, 
+            we have created a tool that:
+        </p>
+        <ul style="font-size: 22px; line-height: 2.2;">
+            <li>Eliminates the need for SQL knowledge</li>
+            <li>Automates data import from multiple file formats</li>
+            <li>Provides visual tools for schema design and data visualization</li>
+            <li>Offers real-time collaboration through WebSocket technology</li>
+            <li>Maintains enterprise-grade security and data validation</li>
+        </ul>
+        <p style="font-size: 24px; margin-top: 30px; color: #22d3ee;">
+            The project demonstrates the potential of AI in transforming traditional software tools 
+            into more accessible, intuitive applications.
+        </p>
+    </div>
+</div>
+
+<!-- SLIDE 17: Thank You -->
+<div class="slide title-slide">
+    <h1 style="font-size: 80px;">Thank You!</h1>
+    <p class="subtitle" style="margin-top: 40px;">Questions & Discussion</p>
+    <div style="margin-top: 60px;">
+        <p style="font-size: 24px; color: #60a5fa;">ChatDBStudio</p>
+        <p style="font-size: 18px; color: #64748b; margin-top: 10px;">AI-Powered Database Management System</p>
+    </div>
+</div>
+
+</body>
+</html>

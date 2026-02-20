@@ -1,0 +1,77 @@
+{
+  "e390537f-0088-4608-bfd1-e86dc6777c7c": {
+    "id": "e390537f-0088-4608-bfd1-e86dc6777c7c",
+    "databaseId": "728bd022-fdeb-4bb3-bc7c-368e235ea7bc",
+    "name": "student",
+    "columns": [
+      {
+        "name": "id",
+        "type": "integer"
+      },
+      {
+        "name": "name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "type": "text"
+      },
+      {
+        "name": "department",
+        "type": "text"
+      }
+    ],
+    "positions": {},
+    "createdAt": "2026-02-01T15:49:58.278Z"
+  },
+  "45d58cbd-0a9e-4d2c-b681-352540581ac2": {
+    "id": "45d58cbd-0a9e-4d2c-b681-352540581ac2",
+    "databaseId": "85136901-0c21-4cd1-aa73-e2c0b64126f1",
+    "name": "imported_csv",
+    "columns": [
+      {
+        "name": "outlook",
+        "type": "text"
+      },
+      {
+        "name": "temperature",
+        "type": "text"
+      },
+      {
+        "name": "humidity",
+        "type": "text"
+      },
+      {
+        "name": "windy",
+        "type": "text"
+      },
+      {
+        "name": "playtennis",
+        "type": "text"
+      }
+    ],
+    "positions": {},
+    "createdAt": "2026-02-01T16:21:59.964Z"
+  },
+  "5c7aa722-4d1c-4dfd-b5fb-b43a04b086a2": {
+    "id": "5c7aa722-4d1c-4dfd-b5fb-b43a04b086a2",
+    "databaseId": "728bd022-fdeb-4bb3-bc7c-368e235ea7bc",
+    "name": "course",
+    "columns": [
+      {
+        "name": "id",
+        "type": "integer"
+      },
+      {
+        "name": "name",
+        "type": "text"
+      },
+      {
+        "name": "department",
+        "type": "text"
+      }
+    ],
+    "positions": {},
+    "createdAt": "2026-02-20T04:09:57.744Z"
+  }
+}

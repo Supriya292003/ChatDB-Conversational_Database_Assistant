@@ -1,0 +1,6838 @@
+{
+  "2eaf10af-5246-4bad-90e4-01972fd22106": {
+    "id": "2eaf10af-5246-4bad-90e4-01972fd22106",
+    "filename": "Internal_Assessment_Test_ContinuousEvaluation-1_Marks (2).xlsx",
+    "content": "",
+    "extractedTables": [
+      {
+        "name": "internal_assessment_test_contin",
+        "columns": [
+          {
+            "name": "usn",
+            "type": "text"
+          },
+          {
+            "name": "student_name",
+            "type": "text"
+          },
+          {
+            "name": "student_email",
+            "type": "text"
+          },
+          {
+            "name": "1_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "2_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "3_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "4_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "5_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "6_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "7_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "8_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "9_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "10_(10)_",
+            "type": "integer"
+          }
+        ],
+        "rows": [
+          {
+            "usn": "1CR24MC002",
+            "student_name": " Abdul Affan ",
+            "student_email": "abdul.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 5,
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": "0",
+            "6_(10)_": 9,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 7,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC005",
+            "student_name": " Adarsha S ",
+            "student_email": "adarsha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC010",
+            "student_name": "Akhil Kumar G A  ",
+            "student_email": "akhil.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 3,
+            "8_(10)_": "0",
+            "9_(10)_": 1,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC012",
+            "student_name": " Aman Kaushik ",
+            "student_email": "aman.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 3,
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": "0",
+            "6_(10)_": 3,
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 4
+          },
+          {
+            "usn": "1CR24MC014",
+            "student_name": " Anto M J ",
+            "student_email": "anto.mca24@cmrit.ac.in",
+            "1_(10)_": 3,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": 7,
+            "6_(10)_": 0,
+            "7_(10)_": 4,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 6
+          },
+          {
+            "usn": "1CR24MC015",
+            "student_name": "Ashwini ",
+            "student_email": "ashwini.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": "0",
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC023",
+            "student_name": "Chandana S  ",
+            "student_email": "chandana.mca24@cmrit.ac.in",
+            "1_(10)_": 4,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": "0",
+            "6_(10)_": 4,
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": "0",
+            "10_(10)_": 3
+          },
+          {
+            "usn": "1CR24MC025",
+            "student_name": "Chayarani J ",
+            "student_email": "chayarani.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": "0",
+            "10_(10)_": 9
+          },
+          {
+            "usn": "1CR24MC026",
+            "student_name": "Chinmayee A ",
+            "student_email": "chinmayee.mca24@cmrit.ac.in",
+            "1_(10)_": 6,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": "0",
+            "6_(10)_": 9,
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 7
+          },
+          {
+            "usn": "1CR24MC027",
+            "student_name": "D S Dharuna ",
+            "student_email": "dsdharuna.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 8,
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 6,
+            "8_(10)_": "0",
+            "9_(10)_": 4,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC028",
+            "student_name": "Darshan S Y  ",
+            "student_email": "darshan.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": "0",
+            "6_(10)_": 9,
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC034",
+            "student_name": " Gagan Sandesh G ",
+            "student_email": "gagan1.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 6,
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": "0",
+            "6_(10)_": 8,
+            "7_(10)_": "0",
+            "8_(10)_": 4,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC039",
+            "student_name": " Hari Prasad ",
+            "student_email": "hari.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC041",
+            "student_name": "Jagadish Narayan Marathi ",
+            "student_email": "jagadish.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC043",
+            "student_name": "Jyothi  ",
+            "student_email": "jyothi.mca24@cmrit.ac.in",
+            "1_(10)_": 8,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": "0",
+            "6_(10)_": 6,
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC048",
+            "student_name": " Madhu U C ",
+            "student_email": "madhu.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 7,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC052",
+            "student_name": "Mahesh T  ",
+            "student_email": "mahesh.mca24@cmrit.ac.in",
+            "1_(10)_": 6,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": 7,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC054",
+            "student_name": "Manasa L ",
+            "student_email": "manasa.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC056",
+            "student_name": "Manickam T  ",
+            "student_email": "manickam.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 9,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC057",
+            "student_name": " Manjunatha K N  ",
+            "student_email": "manjunatha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 4,
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 6,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 3,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC062",
+            "student_name": "Mohammed Rayyan M H  ",
+            "student_email": "mohammed.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": 4,
+            "6_(10)_": "0",
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 4
+          },
+          {
+            "usn": "1CR24MC063",
+            "student_name": "Mohammed Zubair ",
+            "student_email": "mohammed1.mca24@cmrit.ac.in",
+            "1_(10)_": 3,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 4,
+            "5_(10)_": 3,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 4,
+            "9_(10)_": 2,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC064",
+            "student_name": "Mounika A  ",
+            "student_email": "mounika.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC065",
+            "student_name": "Muhammad Sulaiman ",
+            "student_email": "muhammad.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 6,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC066",
+            "student_name": "Namratha B  ",
+            "student_email": "namratha.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 9,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC067",
+            "student_name": "Nandan K S ",
+            "student_email": "nandan.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 7,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC068",
+            "student_name": "Nandan Kumar R  ",
+            "student_email": "nandankumar.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 9,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC073",
+            "student_name": " Nuha Aquil ",
+            "student_email": "nuha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC074",
+            "student_name": " Pathan Safa Abubakar ",
+            "student_email": "pathan.mca24@cmrit.ac.in",
+            "1_(10)_": 4,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 4
+          },
+          {
+            "usn": "1CR24MC075",
+            "student_name": "Pavankumar Komar ",
+            "student_email": "pavankumar.mca24@cmrit.ac.in",
+            "1_(10)_": 4,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 2,
+            "6_(10)_": "0",
+            "7_(10)_": 4,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC078",
+            "student_name": " Pratik Punj ",
+            "student_email": "pratik.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": "0",
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC079",
+            "student_name": "Preethi V  ",
+            "student_email": "preethi.mca24@cmrit.ac.in",
+            "1_(10)_": 7,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC080",
+            "student_name": " Purnashree R ",
+            "student_email": "purnashree.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 8,
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": 4,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 6,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC083",
+            "student_name": " Rashmi Bharti ",
+            "student_email": "rashmi.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 5,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": "0",
+            "6_(10)_": 7,
+            "7_(10)_": 6,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 7
+          },
+          {
+            "usn": "1CR24MC084",
+            "student_name": "Rittika  Shaw",
+            "student_email": "rittika.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC087",
+            "student_name": "Ruchita Rajesh Joshi ",
+            "student_email": "ruchita.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC093",
+            "student_name": " Sharma Shailja Gajendra ",
+            "student_email": "sharma.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC094",
+            "student_name": "Shashanka C G  ",
+            "student_email": "shashanka.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC095",
+            "student_name": "Shayana J V ",
+            "student_email": "shayana.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 7,
+            "8_(10)_": "0",
+            "9_(10)_": 7,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC096",
+            "student_name": "Shiva Prasad Bp  ",
+            "student_email": "shivaprasad.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 4,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC099",
+            "student_name": "Suman K  ",
+            "student_email": "suman.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": "0",
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC100",
+            "student_name": "Supriya S  ",
+            "student_email": "supriya.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 8
+          },
+          {
+            "usn": "1CR24MC101",
+            "student_name": "Sushmitha  ",
+            "student_email": "sushmitha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": "0",
+            "6_(10)_": 8,
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 7,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC102",
+            "student_name": " Swati Shrishail Kambi ",
+            "student_email": "swati.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 3,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 2
+          },
+          {
+            "usn": "1CR24MC105",
+            "student_name": "Tejashwini R  ",
+            "student_email": "tejashwini.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 4,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC106",
+            "student_name": "Uday P  ",
+            "student_email": "uday.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 9,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC107",
+            "student_name": "Vaibhav Chanabasayya Chikkamath ",
+            "student_email": "vaibhav.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 6,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 9,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC108",
+            "student_name": "Vaishnavi K Trivedi ",
+            "student_email": "vaishnavik.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": "0",
+            "6_(10)_": 6,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC109",
+            "student_name": "Vaishnavi Padmashali",
+            "student_email": "vaishnavi.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 8,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC111",
+            "student_name": "Varshini J ",
+            "student_email": "varshini.mca24@cmrit.ac.in",
+            "1_(10)_": 8,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 9,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC112",
+            "student_name": "Vignesh  ",
+            "student_email": "vignesh.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC114",
+            "student_name": "Yuvaraj T ",
+            "student_email": "yuvaraj.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 5,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": 4,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 6,
+            "10_(10)_": "0"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-12-03T03:21:38.064Z"
+  },
+  "86d927c0-be52-4193-b608-10db1f5d5d3f": {
+    "id": "86d927c0-be52-4193-b608-10db1f5d5d3f",
+    "filename": "Mock Assement Accenture slots.xlsx",
+    "content": "",
+    "extractedTables": [
+      {
+        "name": "mock_slot_1",
+        "columns": [
+          {
+            "name": "accenture_mock_assessment_03/12/2025",
+            "type": "text"
+          }
+        ],
+        "rows": [
+          {
+            "accenture_mock_assessment_03/12/2025": "S No."
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 1
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 2
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 3
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 4
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 5
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 6
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 7
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 8
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 9
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 10
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 11
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 12
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 13
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 14
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 15
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 16
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 17
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 18
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 19
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 20
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 21
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 22
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 23
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 24
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 25
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 26
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 27
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 28
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 29
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 30
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 1
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 2
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 3
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 4
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 5
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 6
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 7
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 8
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 9
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 10
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 11
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 12
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 13
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 14
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 15
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 16
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 17
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 18
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 19
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 20
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 21
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 22
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 23
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 24
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 25
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 26
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 27
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 28
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 29
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 30
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 1
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 2
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 3
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 4
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 5
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 6
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 7
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 8
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 9
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 10
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 11
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 12
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 13
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 14
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 15
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 16
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 17
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 18
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 19
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 20
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 1
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 2
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 3
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 4
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 5
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 6
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 7
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 8
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 9
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 10
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 11
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 12
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 13
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 14
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 15
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 16
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 17
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 18
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 19
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 20
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 21
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 22
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 23
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 24
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 25
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 26
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 27
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 28
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 29
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 30
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 1
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 2
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 3
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 4
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 5
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 6
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 7
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 8
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 9
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 10
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 11
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 12
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 13
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 14
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 15
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 16
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 17
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 18
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 19
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 20
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 21
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 22
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 23
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 24
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 25
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 26
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 27
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 28
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 29
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 30
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 1
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 2
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 3
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 4
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 5
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 6
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 7
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 8
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 9
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 10
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 11
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 12
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 13
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 14
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 15
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 16
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 17
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 18
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 19
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 20
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 1
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 2
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 3
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 4
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 5
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 6
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 7
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 8
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 9
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 10
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 11
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 12
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 13
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 14
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 15
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 16
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 17
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 18
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 19
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 20
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 21
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 22
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 23
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 24
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 25
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 26
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 27
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 28
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 29
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 30
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 1
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 2
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 3
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 4
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 5
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 6
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 7
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 8
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 9
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 10
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 11
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 12
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 13
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 14
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 15
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 16
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 17
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 18
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 19
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 20
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 21
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 22
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 23
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 24
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 25
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 26
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 27
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 28
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 29
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 30
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 1
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 2
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 3
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 4
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 5
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 6
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 7
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 8
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 9
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 10
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 11
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 12
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 13
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 14
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 15
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 16
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 17
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 18
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 19
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 20
+          }
+        ]
+      },
+      {
+        "name": "mock_slot_2",
+        "columns": [
+          {
+            "name": "accenture_mock_assessment_03/12/2025",
+            "type": "text"
+          }
+        ],
+        "rows": [
+          {
+            "accenture_mock_assessment_03/12/2025": "S No."
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 1
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 2
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 3
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 4
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 5
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 6
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 7
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 8
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 9
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 10
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 11
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 12
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 13
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 14
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 15
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 16
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 17
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 18
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 19
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 20
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 21
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 22
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 23
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 24
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 25
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 26
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 27
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 28
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 29
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 30
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 1
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 2
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 3
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 4
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 5
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 6
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 7
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 8
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 9
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 10
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 11
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 12
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 13
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 14
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 15
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 16
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 17
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 18
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 19
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 20
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 21
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 22
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 23
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 24
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 25
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 26
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 27
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 28
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 29
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 30
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 1
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 2
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 3
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 4
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 5
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 6
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 7
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 8
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 9
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 10
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 11
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 12
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 13
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 14
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 15
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 16
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 17
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 18
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 19
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 20
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 1
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 2
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 3
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 4
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 5
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 6
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 7
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 8
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 9
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 10
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 11
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 12
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 13
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 14
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 15
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 16
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 17
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 18
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 19
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 20
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 21
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 22
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 23
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 24
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 25
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 26
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 27
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 28
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 29
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 30
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 1
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 2
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 3
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 4
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 5
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 6
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 7
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 8
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 9
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 10
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 11
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 12
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 13
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 14
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 15
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 16
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 17
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 18
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 19
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 20
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 21
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 22
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 23
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 24
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 25
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 26
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 27
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 28
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 29
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 30
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 1
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 2
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 3
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 4
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 5
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 6
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 7
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 8
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 9
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 10
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 11
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 12
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 13
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 14
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 15
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 16
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 17
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 18
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 19
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 20
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 1
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 2
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 3
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 4
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 5
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 6
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 7
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 8
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 9
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 10
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 11
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 12
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 13
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 14
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 15
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 16
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 17
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 18
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 19
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 20
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 21
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 22
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 23
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 24
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 25
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 26
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 27
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 28
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 29
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 30
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 1
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 2
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 3
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 4
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 5
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 6
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 7
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 8
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 9
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 10
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 11
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 12
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 13
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 14
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 15
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 16
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 17
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 18
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 19
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 20
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 21
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 22
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 23
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 24
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 25
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 26
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 27
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 28
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 29
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 30
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 1
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 2
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 3
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 4
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 5
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 6
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 7
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 8
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 9
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 10
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 11
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 12
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 13
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 14
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 15
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 16
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 17
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 18
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 19
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 20
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 21
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 22
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 23
+          },
+          {
+            "accenture_mock_assessment_03/12/2025": 24
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-12-03T03:23:01.083Z"
+  },
+  "e751298f-b9ac-402a-85d2-10024503057b": {
+    "id": "e751298f-b9ac-402a-85d2-10024503057b",
+    "filename": "play_tennis.csv",
+    "content": "",
+    "extractedTables": [
+      {
+        "name": "imported_csv",
+        "columns": [
+          {
+            "name": "outlook",
+            "type": "text"
+          },
+          {
+            "name": "temperature",
+            "type": "text"
+          },
+          {
+            "name": "humidity",
+            "type": "text"
+          },
+          {
+            "name": "windy",
+            "type": "text"
+          },
+          {
+            "name": "playtennis",
+            "type": "text"
+          }
+        ],
+        "rows": [
+          {
+            "outlook": "Sunny",
+            "temperature": "Hot",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Hot",
+            "humidity": "High",
+            "windy": "TRUE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Hot",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "TRUE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "TRUE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Mild",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Mild",
+            "humidity": "Normal",
+            "windy": "TRUE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "TRUE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Hot",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "TRUE",
+            "playtennis": "No"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-12-03T03:26:00.296Z"
+  },
+  "7335df5f-79b0-478e-8b8e-1d2ed60e0ea2": {
+    "id": "7335df5f-79b0-478e-8b8e-1d2ed60e0ea2",
+    "filename": "id3data.csv",
+    "content": "",
+    "extractedTables": [
+      {
+        "name": "imported_csv",
+        "columns": [
+          {
+            "name": "outlook",
+            "type": "text"
+          },
+          {
+            "name": "temperature",
+            "type": "text"
+          },
+          {
+            "name": "humidity",
+            "type": "text"
+          },
+          {
+            "name": "wind",
+            "type": "text"
+          },
+          {
+            "name": "answer",
+            "type": "text"
+          }
+        ],
+        "rows": [
+          {
+            "outlook": "sunny",
+            "temperature": "hot",
+            "humidity": "high",
+            "wind": "weak",
+            "answer": "no"
+          },
+          {
+            "outlook": "sunny",
+            "temperature": "hot",
+            "humidity": "high",
+            "wind": "strong",
+            "answer": "no"
+          },
+          {
+            "outlook": "overcast",
+            "temperature": "hot",
+            "humidity": "high",
+            "wind": "weak",
+            "answer": "yes"
+          },
+          {
+            "outlook": "rain",
+            "temperature": "mild",
+            "humidity": "high",
+            "wind": "weak",
+            "answer": "yes"
+          },
+          {
+            "outlook": "rain",
+            "temperature": "cool",
+            "humidity": "normal",
+            "wind": "weak",
+            "answer": "yes"
+          },
+          {
+            "outlook": "rain",
+            "temperature": "cool",
+            "humidity": "normal",
+            "wind": "strong",
+            "answer": "no"
+          },
+          {
+            "outlook": "overcast",
+            "temperature": "cool",
+            "humidity": "normal",
+            "wind": "strong",
+            "answer": "yes"
+          },
+          {
+            "outlook": "sunny",
+            "temperature": "mild",
+            "humidity": "high",
+            "wind": "weak",
+            "answer": "no"
+          },
+          {
+            "outlook": "sunny",
+            "temperature": "cool",
+            "humidity": "normal",
+            "wind": "weak",
+            "answer": "yes"
+          },
+          {
+            "outlook": "rain",
+            "temperature": "mild",
+            "humidity": "normal",
+            "wind": "weak",
+            "answer": "yes"
+          },
+          {
+            "outlook": "sunny",
+            "temperature": "mild",
+            "humidity": "normal",
+            "wind": "strong",
+            "answer": "yes"
+          },
+          {
+            "outlook": "overcast",
+            "temperature": "mild",
+            "humidity": "high",
+            "wind": "strong",
+            "answer": "yes"
+          },
+          {
+            "outlook": "overcast",
+            "temperature": "hot",
+            "humidity": "normal",
+            "wind": "weak",
+            "answer": "yes"
+          },
+          {
+            "outlook": "rain",
+            "temperature": "mild",
+            "humidity": "high",
+            "wind": "strong",
+            "answer": "no"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-12-03T03:27:44.912Z"
+  },
+  "a4938277-3a86-4eef-87c6-3245962166c5": {
+    "id": "a4938277-3a86-4eef-87c6-3245962166c5",
+    "filename": "Internal_Assessment_Test_ContinuousEvaluation-1_Marks (2).xlsx",
+    "content": "",
+    "extractedTables": [
+      {
+        "name": "internal_assessment_test_contin",
+        "columns": [
+          {
+            "name": "usn",
+            "type": "text"
+          },
+          {
+            "name": "student_name",
+            "type": "text"
+          },
+          {
+            "name": "student_email",
+            "type": "text"
+          },
+          {
+            "name": "1_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "2_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "3_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "4_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "5_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "6_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "7_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "8_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "9_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "10_(10)_",
+            "type": "integer"
+          }
+        ],
+        "rows": [
+          {
+            "usn": "1CR24MC002",
+            "student_name": " Abdul Affan ",
+            "student_email": "abdul.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 5,
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": "0",
+            "6_(10)_": 9,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 7,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC005",
+            "student_name": " Adarsha S ",
+            "student_email": "adarsha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC010",
+            "student_name": "Akhil Kumar G A  ",
+            "student_email": "akhil.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 3,
+            "8_(10)_": "0",
+            "9_(10)_": 1,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC012",
+            "student_name": " Aman Kaushik ",
+            "student_email": "aman.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 3,
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": "0",
+            "6_(10)_": 3,
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 4
+          },
+          {
+            "usn": "1CR24MC014",
+            "student_name": " Anto M J ",
+            "student_email": "anto.mca24@cmrit.ac.in",
+            "1_(10)_": 3,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": 7,
+            "6_(10)_": 0,
+            "7_(10)_": 4,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 6
+          },
+          {
+            "usn": "1CR24MC015",
+            "student_name": "Ashwini ",
+            "student_email": "ashwini.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": "0",
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC023",
+            "student_name": "Chandana S  ",
+            "student_email": "chandana.mca24@cmrit.ac.in",
+            "1_(10)_": 4,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": "0",
+            "6_(10)_": 4,
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": "0",
+            "10_(10)_": 3
+          },
+          {
+            "usn": "1CR24MC025",
+            "student_name": "Chayarani J ",
+            "student_email": "chayarani.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": "0",
+            "10_(10)_": 9
+          },
+          {
+            "usn": "1CR24MC026",
+            "student_name": "Chinmayee A ",
+            "student_email": "chinmayee.mca24@cmrit.ac.in",
+            "1_(10)_": 6,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": "0",
+            "6_(10)_": 9,
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 7
+          },
+          {
+            "usn": "1CR24MC027",
+            "student_name": "D S Dharuna ",
+            "student_email": "dsdharuna.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 8,
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 6,
+            "8_(10)_": "0",
+            "9_(10)_": 4,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC028",
+            "student_name": "Darshan S Y  ",
+            "student_email": "darshan.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": "0",
+            "6_(10)_": 9,
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC034",
+            "student_name": " Gagan Sandesh G ",
+            "student_email": "gagan1.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 6,
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": "0",
+            "6_(10)_": 8,
+            "7_(10)_": "0",
+            "8_(10)_": 4,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC039",
+            "student_name": " Hari Prasad ",
+            "student_email": "hari.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC041",
+            "student_name": "Jagadish Narayan Marathi ",
+            "student_email": "jagadish.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC043",
+            "student_name": "Jyothi  ",
+            "student_email": "jyothi.mca24@cmrit.ac.in",
+            "1_(10)_": 8,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": "0",
+            "6_(10)_": 6,
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC048",
+            "student_name": " Madhu U C ",
+            "student_email": "madhu.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 7,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC052",
+            "student_name": "Mahesh T  ",
+            "student_email": "mahesh.mca24@cmrit.ac.in",
+            "1_(10)_": 6,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": 7,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC054",
+            "student_name": "Manasa L ",
+            "student_email": "manasa.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC056",
+            "student_name": "Manickam T  ",
+            "student_email": "manickam.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 9,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC057",
+            "student_name": " Manjunatha K N  ",
+            "student_email": "manjunatha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 4,
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 6,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 3,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC062",
+            "student_name": "Mohammed Rayyan M H  ",
+            "student_email": "mohammed.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": 4,
+            "6_(10)_": "0",
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 4
+          },
+          {
+            "usn": "1CR24MC063",
+            "student_name": "Mohammed Zubair ",
+            "student_email": "mohammed1.mca24@cmrit.ac.in",
+            "1_(10)_": 3,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 4,
+            "5_(10)_": 3,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 4,
+            "9_(10)_": 2,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC064",
+            "student_name": "Mounika A  ",
+            "student_email": "mounika.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC065",
+            "student_name": "Muhammad Sulaiman ",
+            "student_email": "muhammad.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 6,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC066",
+            "student_name": "Namratha B  ",
+            "student_email": "namratha.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 9,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC067",
+            "student_name": "Nandan K S ",
+            "student_email": "nandan.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 7,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC068",
+            "student_name": "Nandan Kumar R  ",
+            "student_email": "nandankumar.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 9,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC073",
+            "student_name": " Nuha Aquil ",
+            "student_email": "nuha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC074",
+            "student_name": " Pathan Safa Abubakar ",
+            "student_email": "pathan.mca24@cmrit.ac.in",
+            "1_(10)_": 4,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 4
+          },
+          {
+            "usn": "1CR24MC075",
+            "student_name": "Pavankumar Komar ",
+            "student_email": "pavankumar.mca24@cmrit.ac.in",
+            "1_(10)_": 4,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 2,
+            "6_(10)_": "0",
+            "7_(10)_": 4,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC078",
+            "student_name": " Pratik Punj ",
+            "student_email": "pratik.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": "0",
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC079",
+            "student_name": "Preethi V  ",
+            "student_email": "preethi.mca24@cmrit.ac.in",
+            "1_(10)_": 7,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC080",
+            "student_name": " Purnashree R ",
+            "student_email": "purnashree.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 8,
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": 4,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 6,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC083",
+            "student_name": " Rashmi Bharti ",
+            "student_email": "rashmi.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 5,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": "0",
+            "6_(10)_": 7,
+            "7_(10)_": 6,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 7
+          },
+          {
+            "usn": "1CR24MC084",
+            "student_name": "Rittika  Shaw",
+            "student_email": "rittika.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC087",
+            "student_name": "Ruchita Rajesh Joshi ",
+            "student_email": "ruchita.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC093",
+            "student_name": " Sharma Shailja Gajendra ",
+            "student_email": "sharma.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC094",
+            "student_name": "Shashanka C G  ",
+            "student_email": "shashanka.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC095",
+            "student_name": "Shayana J V ",
+            "student_email": "shayana.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 7,
+            "8_(10)_": "0",
+            "9_(10)_": 7,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC096",
+            "student_name": "Shiva Prasad Bp  ",
+            "student_email": "shivaprasad.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 4,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC099",
+            "student_name": "Suman K  ",
+            "student_email": "suman.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": "0",
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC100",
+            "student_name": "Supriya S  ",
+            "student_email": "supriya.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 8
+          },
+          {
+            "usn": "1CR24MC101",
+            "student_name": "Sushmitha  ",
+            "student_email": "sushmitha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": "0",
+            "6_(10)_": 8,
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 7,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC102",
+            "student_name": " Swati Shrishail Kambi ",
+            "student_email": "swati.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 3,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 2
+          },
+          {
+            "usn": "1CR24MC105",
+            "student_name": "Tejashwini R  ",
+            "student_email": "tejashwini.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 4,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC106",
+            "student_name": "Uday P  ",
+            "student_email": "uday.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 9,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC107",
+            "student_name": "Vaibhav Chanabasayya Chikkamath ",
+            "student_email": "vaibhav.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 6,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 9,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC108",
+            "student_name": "Vaishnavi K Trivedi ",
+            "student_email": "vaishnavik.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": "0",
+            "6_(10)_": 6,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC109",
+            "student_name": "Vaishnavi Padmashali",
+            "student_email": "vaishnavi.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 8,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC111",
+            "student_name": "Varshini J ",
+            "student_email": "varshini.mca24@cmrit.ac.in",
+            "1_(10)_": 8,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 9,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC112",
+            "student_name": "Vignesh  ",
+            "student_email": "vignesh.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC114",
+            "student_name": "Yuvaraj T ",
+            "student_email": "yuvaraj.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 5,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": 4,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 6,
+            "10_(10)_": "0"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-12-03T08:38:08.908Z"
+  },
+  "9d634b67-a615-4a51-9f91-f77c157dd193": {
+    "id": "9d634b67-a615-4a51-9f91-f77c157dd193",
+    "filename": "id3data.csv",
+    "content": "",
+    "extractedTables": [
+      {
+        "name": "imported_csv",
+        "columns": [
+          {
+            "name": "outlook",
+            "type": "text"
+          },
+          {
+            "name": "temperature",
+            "type": "text"
+          },
+          {
+            "name": "humidity",
+            "type": "text"
+          },
+          {
+            "name": "wind",
+            "type": "text"
+          },
+          {
+            "name": "answer",
+            "type": "text"
+          }
+        ],
+        "rows": [
+          {
+            "outlook": "sunny",
+            "temperature": "hot",
+            "humidity": "high",
+            "wind": "weak",
+            "answer": "no"
+          },
+          {
+            "outlook": "sunny",
+            "temperature": "hot",
+            "humidity": "high",
+            "wind": "strong",
+            "answer": "no"
+          },
+          {
+            "outlook": "overcast",
+            "temperature": "hot",
+            "humidity": "high",
+            "wind": "weak",
+            "answer": "yes"
+          },
+          {
+            "outlook": "rain",
+            "temperature": "mild",
+            "humidity": "high",
+            "wind": "weak",
+            "answer": "yes"
+          },
+          {
+            "outlook": "rain",
+            "temperature": "cool",
+            "humidity": "normal",
+            "wind": "weak",
+            "answer": "yes"
+          },
+          {
+            "outlook": "rain",
+            "temperature": "cool",
+            "humidity": "normal",
+            "wind": "strong",
+            "answer": "no"
+          },
+          {
+            "outlook": "overcast",
+            "temperature": "cool",
+            "humidity": "normal",
+            "wind": "strong",
+            "answer": "yes"
+          },
+          {
+            "outlook": "sunny",
+            "temperature": "mild",
+            "humidity": "high",
+            "wind": "weak",
+            "answer": "no"
+          },
+          {
+            "outlook": "sunny",
+            "temperature": "cool",
+            "humidity": "normal",
+            "wind": "weak",
+            "answer": "yes"
+          },
+          {
+            "outlook": "rain",
+            "temperature": "mild",
+            "humidity": "normal",
+            "wind": "weak",
+            "answer": "yes"
+          },
+          {
+            "outlook": "sunny",
+            "temperature": "mild",
+            "humidity": "normal",
+            "wind": "strong",
+            "answer": "yes"
+          },
+          {
+            "outlook": "overcast",
+            "temperature": "mild",
+            "humidity": "high",
+            "wind": "strong",
+            "answer": "yes"
+          },
+          {
+            "outlook": "overcast",
+            "temperature": "hot",
+            "humidity": "normal",
+            "wind": "weak",
+            "answer": "yes"
+          },
+          {
+            "outlook": "rain",
+            "temperature": "mild",
+            "humidity": "high",
+            "wind": "strong",
+            "answer": "no"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-12-08T03:50:26.374Z"
+  },
+  "0c6a255a-cec2-4bb3-b64b-e699a76beb17": {
+    "id": "0c6a255a-cec2-4bb3-b64b-e699a76beb17",
+    "filename": "play_tennis.csv",
+    "content": "",
+    "extractedTables": [
+      {
+        "name": "imported_csv",
+        "columns": [
+          {
+            "name": "outlook",
+            "type": "text"
+          },
+          {
+            "name": "temperature",
+            "type": "text"
+          },
+          {
+            "name": "humidity",
+            "type": "text"
+          },
+          {
+            "name": "windy",
+            "type": "text"
+          },
+          {
+            "name": "playtennis",
+            "type": "text"
+          }
+        ],
+        "rows": [
+          {
+            "outlook": "Sunny",
+            "temperature": "Hot",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Hot",
+            "humidity": "High",
+            "windy": "TRUE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Hot",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "TRUE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "TRUE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Mild",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Mild",
+            "humidity": "Normal",
+            "windy": "TRUE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "TRUE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Hot",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "TRUE",
+            "playtennis": "No"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-12-08T03:51:12.440Z"
+  },
+  "0814c93c-21f5-4f5a-b334-9579dce1aa59": {
+    "id": "0814c93c-21f5-4f5a-b334-9579dce1aa59",
+    "filename": "Internal_Assessment_Test_ContinuousEvaluation-1_Marks (2).xlsx",
+    "content": "",
+    "extractedTables": [
+      {
+        "name": "internal_assessment_test_contin",
+        "columns": [
+          {
+            "name": "usn",
+            "type": "text"
+          },
+          {
+            "name": "student_name",
+            "type": "text"
+          },
+          {
+            "name": "student_email",
+            "type": "text"
+          },
+          {
+            "name": "1_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "2_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "3_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "4_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "5_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "6_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "7_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "8_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "9_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "10_(10)_",
+            "type": "integer"
+          }
+        ],
+        "rows": [
+          {
+            "usn": "1CR24MC002",
+            "student_name": " Abdul Affan ",
+            "student_email": "abdul.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 5,
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": "0",
+            "6_(10)_": 9,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 7,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC005",
+            "student_name": " Adarsha S ",
+            "student_email": "adarsha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC010",
+            "student_name": "Akhil Kumar G A  ",
+            "student_email": "akhil.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 3,
+            "8_(10)_": "0",
+            "9_(10)_": 1,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC012",
+            "student_name": " Aman Kaushik ",
+            "student_email": "aman.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 3,
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": "0",
+            "6_(10)_": 3,
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 4
+          },
+          {
+            "usn": "1CR24MC014",
+            "student_name": " Anto M J ",
+            "student_email": "anto.mca24@cmrit.ac.in",
+            "1_(10)_": 3,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": 7,
+            "6_(10)_": 0,
+            "7_(10)_": 4,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 6
+          },
+          {
+            "usn": "1CR24MC015",
+            "student_name": "Ashwini ",
+            "student_email": "ashwini.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": "0",
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC023",
+            "student_name": "Chandana S  ",
+            "student_email": "chandana.mca24@cmrit.ac.in",
+            "1_(10)_": 4,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": "0",
+            "6_(10)_": 4,
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": "0",
+            "10_(10)_": 3
+          },
+          {
+            "usn": "1CR24MC025",
+            "student_name": "Chayarani J ",
+            "student_email": "chayarani.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": "0",
+            "10_(10)_": 9
+          },
+          {
+            "usn": "1CR24MC026",
+            "student_name": "Chinmayee A ",
+            "student_email": "chinmayee.mca24@cmrit.ac.in",
+            "1_(10)_": 6,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": "0",
+            "6_(10)_": 9,
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 7
+          },
+          {
+            "usn": "1CR24MC027",
+            "student_name": "D S Dharuna ",
+            "student_email": "dsdharuna.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 8,
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 6,
+            "8_(10)_": "0",
+            "9_(10)_": 4,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC028",
+            "student_name": "Darshan S Y  ",
+            "student_email": "darshan.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": "0",
+            "6_(10)_": 9,
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC034",
+            "student_name": " Gagan Sandesh G ",
+            "student_email": "gagan1.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 6,
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": "0",
+            "6_(10)_": 8,
+            "7_(10)_": "0",
+            "8_(10)_": 4,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC039",
+            "student_name": " Hari Prasad ",
+            "student_email": "hari.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC041",
+            "student_name": "Jagadish Narayan Marathi ",
+            "student_email": "jagadish.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC043",
+            "student_name": "Jyothi  ",
+            "student_email": "jyothi.mca24@cmrit.ac.in",
+            "1_(10)_": 8,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": "0",
+            "6_(10)_": 6,
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC048",
+            "student_name": " Madhu U C ",
+            "student_email": "madhu.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 7,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC052",
+            "student_name": "Mahesh T  ",
+            "student_email": "mahesh.mca24@cmrit.ac.in",
+            "1_(10)_": 6,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": 7,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC054",
+            "student_name": "Manasa L ",
+            "student_email": "manasa.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC056",
+            "student_name": "Manickam T  ",
+            "student_email": "manickam.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 9,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC057",
+            "student_name": " Manjunatha K N  ",
+            "student_email": "manjunatha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 4,
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 6,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 3,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC062",
+            "student_name": "Mohammed Rayyan M H  ",
+            "student_email": "mohammed.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": 4,
+            "6_(10)_": "0",
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 4
+          },
+          {
+            "usn": "1CR24MC063",
+            "student_name": "Mohammed Zubair ",
+            "student_email": "mohammed1.mca24@cmrit.ac.in",
+            "1_(10)_": 3,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 4,
+            "5_(10)_": 3,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 4,
+            "9_(10)_": 2,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC064",
+            "student_name": "Mounika A  ",
+            "student_email": "mounika.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC065",
+            "student_name": "Muhammad Sulaiman ",
+            "student_email": "muhammad.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 6,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC066",
+            "student_name": "Namratha B  ",
+            "student_email": "namratha.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 9,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC067",
+            "student_name": "Nandan K S ",
+            "student_email": "nandan.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 7,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC068",
+            "student_name": "Nandan Kumar R  ",
+            "student_email": "nandankumar.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 9,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC073",
+            "student_name": " Nuha Aquil ",
+            "student_email": "nuha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC074",
+            "student_name": " Pathan Safa Abubakar ",
+            "student_email": "pathan.mca24@cmrit.ac.in",
+            "1_(10)_": 4,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 4
+          },
+          {
+            "usn": "1CR24MC075",
+            "student_name": "Pavankumar Komar ",
+            "student_email": "pavankumar.mca24@cmrit.ac.in",
+            "1_(10)_": 4,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 2,
+            "6_(10)_": "0",
+            "7_(10)_": 4,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC078",
+            "student_name": " Pratik Punj ",
+            "student_email": "pratik.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": "0",
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC079",
+            "student_name": "Preethi V  ",
+            "student_email": "preethi.mca24@cmrit.ac.in",
+            "1_(10)_": 7,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC080",
+            "student_name": " Purnashree R ",
+            "student_email": "purnashree.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 8,
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": 4,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 6,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC083",
+            "student_name": " Rashmi Bharti ",
+            "student_email": "rashmi.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 5,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": "0",
+            "6_(10)_": 7,
+            "7_(10)_": 6,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 7
+          },
+          {
+            "usn": "1CR24MC084",
+            "student_name": "Rittika  Shaw",
+            "student_email": "rittika.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC087",
+            "student_name": "Ruchita Rajesh Joshi ",
+            "student_email": "ruchita.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC093",
+            "student_name": " Sharma Shailja Gajendra ",
+            "student_email": "sharma.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC094",
+            "student_name": "Shashanka C G  ",
+            "student_email": "shashanka.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC095",
+            "student_name": "Shayana J V ",
+            "student_email": "shayana.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 7,
+            "8_(10)_": "0",
+            "9_(10)_": 7,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC096",
+            "student_name": "Shiva Prasad Bp  ",
+            "student_email": "shivaprasad.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 4,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC099",
+            "student_name": "Suman K  ",
+            "student_email": "suman.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": "0",
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC100",
+            "student_name": "Supriya S  ",
+            "student_email": "supriya.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 8
+          },
+          {
+            "usn": "1CR24MC101",
+            "student_name": "Sushmitha  ",
+            "student_email": "sushmitha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": "0",
+            "6_(10)_": 8,
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 7,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC102",
+            "student_name": " Swati Shrishail Kambi ",
+            "student_email": "swati.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 3,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 2
+          },
+          {
+            "usn": "1CR24MC105",
+            "student_name": "Tejashwini R  ",
+            "student_email": "tejashwini.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 4,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC106",
+            "student_name": "Uday P  ",
+            "student_email": "uday.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 9,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC107",
+            "student_name": "Vaibhav Chanabasayya Chikkamath ",
+            "student_email": "vaibhav.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 6,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 9,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC108",
+            "student_name": "Vaishnavi K Trivedi ",
+            "student_email": "vaishnavik.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": "0",
+            "6_(10)_": 6,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC109",
+            "student_name": "Vaishnavi Padmashali",
+            "student_email": "vaishnavi.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 8,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC111",
+            "student_name": "Varshini J ",
+            "student_email": "varshini.mca24@cmrit.ac.in",
+            "1_(10)_": 8,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 9,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC112",
+            "student_name": "Vignesh  ",
+            "student_email": "vignesh.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC114",
+            "student_name": "Yuvaraj T ",
+            "student_email": "yuvaraj.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 5,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": 4,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 6,
+            "10_(10)_": "0"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-12-08T03:52:06.910Z"
+  },
+  "de73318b-d920-4bd7-9169-bcf9046da258": {
+    "id": "de73318b-d920-4bd7-9169-bcf9046da258",
+    "filename": "Data.csv",
+    "content": "",
+    "extractedTables": [
+      {
+        "name": "imported_csv",
+        "columns": [
+          {
+            "name": "country",
+            "type": "text"
+          },
+          {
+            "name": "age",
+            "type": "integer"
+          },
+          {
+            "name": "salary",
+            "type": "integer"
+          },
+          {
+            "name": "purchased",
+            "type": "text"
+          }
+        ],
+        "rows": [
+          {
+            "country": "France",
+            "age": "44",
+            "salary": "72000",
+            "purchased": "No"
+          },
+          {
+            "country": "Spain",
+            "age": "27",
+            "salary": "48000",
+            "purchased": "Yes"
+          },
+          {
+            "country": "Germany",
+            "age": "30",
+            "salary": "54000",
+            "purchased": "No"
+          },
+          {
+            "country": "Spain",
+            "age": "38",
+            "salary": "61000",
+            "purchased": "No"
+          },
+          {
+            "country": "Germany",
+            "age": "40",
+            "salary": null,
+            "purchased": "Yes"
+          },
+          {
+            "country": "France",
+            "age": "35",
+            "salary": "58000",
+            "purchased": "Yes"
+          },
+          {
+            "country": "Spain",
+            "age": null,
+            "salary": "52000",
+            "purchased": "No"
+          },
+          {
+            "country": "France",
+            "age": "48",
+            "salary": "79000",
+            "purchased": "Yes"
+          },
+          {
+            "country": "Germany",
+            "age": "50",
+            "salary": "83000",
+            "purchased": "No"
+          },
+          {
+            "country": "France",
+            "age": "37",
+            "salary": "67000",
+            "purchased": "Yes"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-12-08T03:52:51.249Z"
+  },
+  "05a509dd-fc3d-43eb-baf8-1353c9df9933": {
+    "id": "05a509dd-fc3d-43eb-baf8-1353c9df9933",
+    "filename": "play_tennis.csv",
+    "content": "",
+    "extractedTables": [
+      {
+        "name": "imported_csv",
+        "columns": [
+          {
+            "name": "outlook",
+            "type": "text"
+          },
+          {
+            "name": "temperature",
+            "type": "text"
+          },
+          {
+            "name": "humidity",
+            "type": "text"
+          },
+          {
+            "name": "windy",
+            "type": "text"
+          },
+          {
+            "name": "playtennis",
+            "type": "text"
+          }
+        ],
+        "rows": [
+          {
+            "outlook": "Sunny",
+            "temperature": "Hot",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Hot",
+            "humidity": "High",
+            "windy": "TRUE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Hot",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "TRUE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "TRUE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Mild",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Mild",
+            "humidity": "Normal",
+            "windy": "TRUE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "TRUE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Hot",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "TRUE",
+            "playtennis": "No"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-12-10T09:28:42.604Z"
+  },
+  "ba502fbc-95ce-4667-992c-62907ff197a9": {
+    "id": "ba502fbc-95ce-4667-992c-62907ff197a9",
+    "filename": "Internal_Assessment_Test_ContinuousEvaluation-1_Marks (2).xlsx",
+    "content": "",
+    "extractedTables": [
+      {
+        "name": "internal_assessment_test_contin",
+        "columns": [
+          {
+            "name": "usn",
+            "type": "text"
+          },
+          {
+            "name": "student_name",
+            "type": "text"
+          },
+          {
+            "name": "student_email",
+            "type": "text"
+          },
+          {
+            "name": "1_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "2_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "3_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "4_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "5_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "6_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "7_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "8_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "9_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "10_(10)_",
+            "type": "integer"
+          }
+        ],
+        "rows": [
+          {
+            "usn": "1CR24MC002",
+            "student_name": " Abdul Affan ",
+            "student_email": "abdul.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 5,
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": "0",
+            "6_(10)_": 9,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 7,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC005",
+            "student_name": " Adarsha S ",
+            "student_email": "adarsha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC010",
+            "student_name": "Akhil Kumar G A  ",
+            "student_email": "akhil.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 3,
+            "8_(10)_": "0",
+            "9_(10)_": 1,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC012",
+            "student_name": " Aman Kaushik ",
+            "student_email": "aman.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 3,
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": "0",
+            "6_(10)_": 3,
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 4
+          },
+          {
+            "usn": "1CR24MC014",
+            "student_name": " Anto M J ",
+            "student_email": "anto.mca24@cmrit.ac.in",
+            "1_(10)_": 3,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": 7,
+            "6_(10)_": 0,
+            "7_(10)_": 4,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 6
+          },
+          {
+            "usn": "1CR24MC015",
+            "student_name": "Ashwini ",
+            "student_email": "ashwini.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": "0",
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC023",
+            "student_name": "Chandana S  ",
+            "student_email": "chandana.mca24@cmrit.ac.in",
+            "1_(10)_": 4,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": "0",
+            "6_(10)_": 4,
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": "0",
+            "10_(10)_": 3
+          },
+          {
+            "usn": "1CR24MC025",
+            "student_name": "Chayarani J ",
+            "student_email": "chayarani.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": "0",
+            "10_(10)_": 9
+          },
+          {
+            "usn": "1CR24MC026",
+            "student_name": "Chinmayee A ",
+            "student_email": "chinmayee.mca24@cmrit.ac.in",
+            "1_(10)_": 6,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": "0",
+            "6_(10)_": 9,
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 7
+          },
+          {
+            "usn": "1CR24MC027",
+            "student_name": "D S Dharuna ",
+            "student_email": "dsdharuna.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 8,
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 6,
+            "8_(10)_": "0",
+            "9_(10)_": 4,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC028",
+            "student_name": "Darshan S Y  ",
+            "student_email": "darshan.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": "0",
+            "6_(10)_": 9,
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC034",
+            "student_name": " Gagan Sandesh G ",
+            "student_email": "gagan1.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 6,
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": "0",
+            "6_(10)_": 8,
+            "7_(10)_": "0",
+            "8_(10)_": 4,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC039",
+            "student_name": " Hari Prasad ",
+            "student_email": "hari.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC041",
+            "student_name": "Jagadish Narayan Marathi ",
+            "student_email": "jagadish.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC043",
+            "student_name": "Jyothi  ",
+            "student_email": "jyothi.mca24@cmrit.ac.in",
+            "1_(10)_": 8,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": "0",
+            "6_(10)_": 6,
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC048",
+            "student_name": " Madhu U C ",
+            "student_email": "madhu.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 7,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC052",
+            "student_name": "Mahesh T  ",
+            "student_email": "mahesh.mca24@cmrit.ac.in",
+            "1_(10)_": 6,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": 7,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC054",
+            "student_name": "Manasa L ",
+            "student_email": "manasa.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC056",
+            "student_name": "Manickam T  ",
+            "student_email": "manickam.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 9,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC057",
+            "student_name": " Manjunatha K N  ",
+            "student_email": "manjunatha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 4,
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 6,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 3,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC062",
+            "student_name": "Mohammed Rayyan M H  ",
+            "student_email": "mohammed.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": 4,
+            "6_(10)_": "0",
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 4
+          },
+          {
+            "usn": "1CR24MC063",
+            "student_name": "Mohammed Zubair ",
+            "student_email": "mohammed1.mca24@cmrit.ac.in",
+            "1_(10)_": 3,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 4,
+            "5_(10)_": 3,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 4,
+            "9_(10)_": 2,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC064",
+            "student_name": "Mounika A  ",
+            "student_email": "mounika.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC065",
+            "student_name": "Muhammad Sulaiman ",
+            "student_email": "muhammad.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 6,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC066",
+            "student_name": "Namratha B  ",
+            "student_email": "namratha.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 9,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC067",
+            "student_name": "Nandan K S ",
+            "student_email": "nandan.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 7,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC068",
+            "student_name": "Nandan Kumar R  ",
+            "student_email": "nandankumar.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 9,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC073",
+            "student_name": " Nuha Aquil ",
+            "student_email": "nuha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC074",
+            "student_name": " Pathan Safa Abubakar ",
+            "student_email": "pathan.mca24@cmrit.ac.in",
+            "1_(10)_": 4,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 4
+          },
+          {
+            "usn": "1CR24MC075",
+            "student_name": "Pavankumar Komar ",
+            "student_email": "pavankumar.mca24@cmrit.ac.in",
+            "1_(10)_": 4,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 2,
+            "6_(10)_": "0",
+            "7_(10)_": 4,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC078",
+            "student_name": " Pratik Punj ",
+            "student_email": "pratik.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": "0",
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC079",
+            "student_name": "Preethi V  ",
+            "student_email": "preethi.mca24@cmrit.ac.in",
+            "1_(10)_": 7,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC080",
+            "student_name": " Purnashree R ",
+            "student_email": "purnashree.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 8,
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": 4,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 6,
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC083",
+            "student_name": " Rashmi Bharti ",
+            "student_email": "rashmi.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 5,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": "0",
+            "6_(10)_": 7,
+            "7_(10)_": 6,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 7
+          },
+          {
+            "usn": "1CR24MC084",
+            "student_name": "Rittika  Shaw",
+            "student_email": "rittika.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC087",
+            "student_name": "Ruchita Rajesh Joshi ",
+            "student_email": "ruchita.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC093",
+            "student_name": " Sharma Shailja Gajendra ",
+            "student_email": "sharma.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC094",
+            "student_name": "Shashanka C G  ",
+            "student_email": "shashanka.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC095",
+            "student_name": "Shayana J V ",
+            "student_email": "shayana.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 7,
+            "8_(10)_": "0",
+            "9_(10)_": 7,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC096",
+            "student_name": "Shiva Prasad Bp  ",
+            "student_email": "shivaprasad.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 4,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC099",
+            "student_name": "Suman K  ",
+            "student_email": "suman.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": "0",
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC100",
+            "student_name": "Supriya S  ",
+            "student_email": "supriya.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 8
+          },
+          {
+            "usn": "1CR24MC101",
+            "student_name": "Sushmitha  ",
+            "student_email": "sushmitha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": "0",
+            "6_(10)_": 8,
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 7,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC102",
+            "student_name": " Swati Shrishail Kambi ",
+            "student_email": "swati.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 3,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 2
+          },
+          {
+            "usn": "1CR24MC105",
+            "student_name": "Tejashwini R  ",
+            "student_email": "tejashwini.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 4,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 5
+          },
+          {
+            "usn": "1CR24MC106",
+            "student_name": "Uday P  ",
+            "student_email": "uday.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 9,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC107",
+            "student_name": "Vaibhav Chanabasayya Chikkamath ",
+            "student_email": "vaibhav.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 6,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 9,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC108",
+            "student_name": "Vaishnavi K Trivedi ",
+            "student_email": "vaishnavik.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": "0",
+            "6_(10)_": 6,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC109",
+            "student_name": "Vaishnavi Padmashali",
+            "student_email": "vaishnavi.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 8,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC111",
+            "student_name": "Varshini J ",
+            "student_email": "varshini.mca24@cmrit.ac.in",
+            "1_(10)_": 8,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 9,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC112",
+            "student_name": "Vignesh  ",
+            "student_email": "vignesh.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": 10,
+            "10_(10)_": "0"
+          },
+          {
+            "usn": "1CR24MC114",
+            "student_name": "Yuvaraj T ",
+            "student_email": "yuvaraj.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 5,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": 4,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 6,
+            "10_(10)_": "0"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-12-13T03:35:31.973Z"
+  },
+  "e78d50d0-3a9e-4f5b-b8fd-70939f4cd3bd": {
+    "id": "e78d50d0-3a9e-4f5b-b8fd-70939f4cd3bd",
+    "filename": "play_tennis.csv",
+    "content": "",
+    "extractedTables": [
+      {
+        "name": "imported_csv",
+        "columns": [
+          {
+            "name": "outlook",
+            "type": "text"
+          },
+          {
+            "name": "temperature",
+            "type": "text"
+          },
+          {
+            "name": "humidity",
+            "type": "text"
+          },
+          {
+            "name": "windy",
+            "type": "text"
+          },
+          {
+            "name": "playtennis",
+            "type": "text"
+          }
+        ],
+        "rows": [
+          {
+            "outlook": "Sunny",
+            "temperature": "Hot",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Hot",
+            "humidity": "High",
+            "windy": "TRUE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Hot",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "TRUE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "TRUE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Mild",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Mild",
+            "humidity": "Normal",
+            "windy": "TRUE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "TRUE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Hot",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "TRUE",
+            "playtennis": "No"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-12-13T03:37:23.329Z"
+  },
+  "73a6ca99-4a31-49b5-a015-e3affeb1cf5f": {
+    "id": "73a6ca99-4a31-49b5-a015-e3affeb1cf5f",
+    "filename": "Internal_Assessment_Test_ContinuousEvaluation-1_Marks (2) (1).xlsx",
+    "content": "",
+    "extractedTables": [
+      {
+        "name": "internal_assessment_test_contin",
+        "columns": [
+          {
+            "name": "usn",
+            "type": "text"
+          },
+          {
+            "name": "student_name",
+            "type": "text"
+          },
+          {
+            "name": "student_email",
+            "type": "text"
+          },
+          {
+            "name": "1_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "2_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "3_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "4_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "5_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "6_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "7_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "8_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "9_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "10_(10)_",
+            "type": "integer"
+          },
+          {
+            "name": "total",
+            "type": "integer"
+          }
+        ],
+        "rows": [
+          {
+            "usn": "1CR24MC002",
+            "student_name": " Abdul Affan ",
+            "student_email": "abdul.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 5,
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": "0",
+            "6_(10)_": 9,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 7,
+            "10_(10)_": "0",
+            "total": 36
+          },
+          {
+            "usn": "1CR24MC005",
+            "student_name": " Adarsha S ",
+            "student_email": "adarsha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": "0",
+            "10_(10)_": 5,
+            "total": 21
+          },
+          {
+            "usn": "1CR24MC010",
+            "student_name": "Akhil Kumar G A  ",
+            "student_email": "akhil.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 3,
+            "8_(10)_": "0",
+            "9_(10)_": 1,
+            "10_(10)_": "0",
+            "total": 19
+          },
+          {
+            "usn": "1CR24MC012",
+            "student_name": " Aman Kaushik ",
+            "student_email": "aman.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 3,
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": "0",
+            "6_(10)_": 3,
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 4,
+            "total": 20
+          },
+          {
+            "usn": "1CR24MC014",
+            "student_name": " Anto M J ",
+            "student_email": "anto.mca24@cmrit.ac.in",
+            "1_(10)_": 3,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": 7,
+            "6_(10)_": 0,
+            "7_(10)_": 4,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 6,
+            "total": 20
+          },
+          {
+            "usn": "1CR24MC015",
+            "student_name": "Ashwini ",
+            "student_email": "ashwini.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": "0",
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": "0",
+            "total": 0
+          },
+          {
+            "usn": "1CR24MC023",
+            "student_name": "Chandana S  ",
+            "student_email": "chandana.mca24@cmrit.ac.in",
+            "1_(10)_": 4,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": "0",
+            "6_(10)_": 4,
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": "0",
+            "10_(10)_": 3,
+            "total": 21
+          },
+          {
+            "usn": "1CR24MC025",
+            "student_name": "Chayarani J ",
+            "student_email": "chayarani.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": "0",
+            "10_(10)_": 9,
+            "total": 47
+          },
+          {
+            "usn": "1CR24MC026",
+            "student_name": "Chinmayee A ",
+            "student_email": "chinmayee.mca24@cmrit.ac.in",
+            "1_(10)_": 6,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": "0",
+            "6_(10)_": 9,
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 7,
+            "total": 41
+          },
+          {
+            "usn": "1CR24MC027",
+            "student_name": "D S Dharuna ",
+            "student_email": "dsdharuna.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 8,
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 6,
+            "8_(10)_": "0",
+            "9_(10)_": 4,
+            "10_(10)_": "0",
+            "total": 30
+          },
+          {
+            "usn": "1CR24MC028",
+            "student_name": "Darshan S Y  ",
+            "student_email": "darshan.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": "0",
+            "6_(10)_": 9,
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": "0",
+            "10_(10)_": 5,
+            "total": 36
+          },
+          {
+            "usn": "1CR24MC034",
+            "student_name": " Gagan Sandesh G ",
+            "student_email": "gagan1.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 6,
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": "0",
+            "6_(10)_": 8,
+            "7_(10)_": "0",
+            "8_(10)_": 4,
+            "9_(10)_": "0",
+            "10_(10)_": 5,
+            "total": 30
+          },
+          {
+            "usn": "1CR24MC039",
+            "student_name": " Hari Prasad ",
+            "student_email": "hari.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 10,
+            "10_(10)_": "0",
+            "total": 50
+          },
+          {
+            "usn": "1CR24MC041",
+            "student_name": "Jagadish Narayan Marathi ",
+            "student_email": "jagadish.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0",
+            "total": 50
+          },
+          {
+            "usn": "1CR24MC043",
+            "student_name": "Jyothi  ",
+            "student_email": "jyothi.mca24@cmrit.ac.in",
+            "1_(10)_": 8,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": "0",
+            "6_(10)_": 6,
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0",
+            "total": 38
+          },
+          {
+            "usn": "1CR24MC048",
+            "student_name": " Madhu U C ",
+            "student_email": "madhu.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 7,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 8,
+            "10_(10)_": "0",
+            "total": 42
+          },
+          {
+            "usn": "1CR24MC052",
+            "student_name": "Mahesh T  ",
+            "student_email": "mahesh.mca24@cmrit.ac.in",
+            "1_(10)_": 6,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": 7,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0",
+            "total": 29
+          },
+          {
+            "usn": "1CR24MC054",
+            "student_name": "Manasa L ",
+            "student_email": "manasa.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0",
+            "total": 48
+          },
+          {
+            "usn": "1CR24MC056",
+            "student_name": "Manickam T  ",
+            "student_email": "manickam.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 9,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0",
+            "total": 43
+          },
+          {
+            "usn": "1CR24MC057",
+            "student_name": " Manjunatha K N  ",
+            "student_email": "manjunatha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 4,
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 6,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 3,
+            "10_(10)_": "0",
+            "total": 25
+          },
+          {
+            "usn": "1CR24MC062",
+            "student_name": "Mohammed Rayyan M H  ",
+            "student_email": "mohammed.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": 4,
+            "6_(10)_": "0",
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 4,
+            "total": 19
+          },
+          {
+            "usn": "1CR24MC063",
+            "student_name": "Mohammed Zubair ",
+            "student_email": "mohammed1.mca24@cmrit.ac.in",
+            "1_(10)_": 3,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 4,
+            "5_(10)_": 3,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 4,
+            "9_(10)_": 2,
+            "10_(10)_": "0",
+            "total": 16
+          },
+          {
+            "usn": "1CR24MC064",
+            "student_name": "Mounika A  ",
+            "student_email": "mounika.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0",
+            "total": 48
+          },
+          {
+            "usn": "1CR24MC065",
+            "student_name": "Muhammad Sulaiman ",
+            "student_email": "muhammad.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 6,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": "0",
+            "10_(10)_": 5,
+            "total": 31
+          },
+          {
+            "usn": "1CR24MC066",
+            "student_name": "Namratha B  ",
+            "student_email": "namratha.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 9,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0",
+            "total": 47
+          },
+          {
+            "usn": "1CR24MC067",
+            "student_name": "Nandan K S ",
+            "student_email": "nandan.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 7,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0",
+            "total": 42
+          },
+          {
+            "usn": "1CR24MC068",
+            "student_name": "Nandan Kumar R  ",
+            "student_email": "nandankumar.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 9,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0",
+            "total": 40
+          },
+          {
+            "usn": "1CR24MC073",
+            "student_name": " Nuha Aquil ",
+            "student_email": "nuha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0",
+            "total": 50
+          },
+          {
+            "usn": "1CR24MC074",
+            "student_name": " Pathan Safa Abubakar ",
+            "student_email": "pathan.mca24@cmrit.ac.in",
+            "1_(10)_": 4,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 4,
+            "total": 28
+          },
+          {
+            "usn": "1CR24MC075",
+            "student_name": "Pavankumar Komar ",
+            "student_email": "pavankumar.mca24@cmrit.ac.in",
+            "1_(10)_": 4,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 2,
+            "6_(10)_": "0",
+            "7_(10)_": 4,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 5,
+            "total": 20
+          },
+          {
+            "usn": "1CR24MC078",
+            "student_name": " Pratik Punj ",
+            "student_email": "pratik.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": "0",
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": "0",
+            "total": 0
+          },
+          {
+            "usn": "1CR24MC079",
+            "student_name": "Preethi V  ",
+            "student_email": "preethi.mca24@cmrit.ac.in",
+            "1_(10)_": 7,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0",
+            "total": 41
+          },
+          {
+            "usn": "1CR24MC080",
+            "student_name": " Purnashree R ",
+            "student_email": "purnashree.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 8,
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": 4,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 6,
+            "9_(10)_": "0",
+            "10_(10)_": 5,
+            "total": 29
+          },
+          {
+            "usn": "1CR24MC083",
+            "student_name": " Rashmi Bharti ",
+            "student_email": "rashmi.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 5,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": "0",
+            "6_(10)_": 7,
+            "7_(10)_": 6,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 7,
+            "total": 34
+          },
+          {
+            "usn": "1CR24MC084",
+            "student_name": "Rittika  Shaw",
+            "student_email": "rittika.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0",
+            "total": 50
+          },
+          {
+            "usn": "1CR24MC087",
+            "student_name": "Ruchita Rajesh Joshi ",
+            "student_email": "ruchita.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0",
+            "total": 50
+          },
+          {
+            "usn": "1CR24MC093",
+            "student_name": " Sharma Shailja Gajendra ",
+            "student_email": "sharma.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 10,
+            "10_(10)_": "0",
+            "total": 49
+          },
+          {
+            "usn": "1CR24MC094",
+            "student_name": "Shashanka C G  ",
+            "student_email": "shashanka.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 10,
+            "10_(10)_": "0",
+            "total": 48
+          },
+          {
+            "usn": "1CR24MC095",
+            "student_name": "Shayana J V ",
+            "student_email": "shayana.mca24@cmrit.ac.in",
+            "1_(10)_": 10,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 7,
+            "8_(10)_": "0",
+            "9_(10)_": 7,
+            "10_(10)_": "0",
+            "total": 44
+          },
+          {
+            "usn": "1CR24MC096",
+            "student_name": "Shiva Prasad Bp  ",
+            "student_email": "shivaprasad.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 4,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 5,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 5,
+            "total": 19
+          },
+          {
+            "usn": "1CR24MC099",
+            "student_name": "Suman K  ",
+            "student_email": "suman.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": "0",
+            "5_(10)_": "0",
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": "0",
+            "total": 0
+          },
+          {
+            "usn": "1CR24MC100",
+            "student_name": "Supriya S  ",
+            "student_email": "supriya.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 8,
+            "total": 46
+          },
+          {
+            "usn": "1CR24MC101",
+            "student_name": "Sushmitha  ",
+            "student_email": "sushmitha.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": "0",
+            "6_(10)_": 8,
+            "7_(10)_": "0",
+            "8_(10)_": 10,
+            "9_(10)_": 7,
+            "10_(10)_": "0",
+            "total": 40
+          },
+          {
+            "usn": "1CR24MC102",
+            "student_name": " Swati Shrishail Kambi ",
+            "student_email": "swati.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 7,
+            "5_(10)_": 8,
+            "6_(10)_": "0",
+            "7_(10)_": 3,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 2,
+            "total": 25
+          },
+          {
+            "usn": "1CR24MC105",
+            "student_name": "Tejashwini R  ",
+            "student_email": "tejashwini.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": 4,
+            "8_(10)_": "0",
+            "9_(10)_": "0",
+            "10_(10)_": 5,
+            "total": 28
+          },
+          {
+            "usn": "1CR24MC106",
+            "student_name": "Uday P  ",
+            "student_email": "uday.mca24@cmrit.ac.in",
+            "1_(10)_": 5,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 5,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 9,
+            "10_(10)_": "0",
+            "total": 31
+          },
+          {
+            "usn": "1CR24MC107",
+            "student_name": "Vaibhav Chanabasayya Chikkamath ",
+            "student_email": "vaibhav.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 6,
+            "3_(10)_": "0",
+            "4_(10)_": 8,
+            "5_(10)_": 5,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 9,
+            "10_(10)_": "0",
+            "total": 35
+          },
+          {
+            "usn": "1CR24MC108",
+            "student_name": "Vaishnavi K Trivedi ",
+            "student_email": "vaishnavik.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 7,
+            "3_(10)_": "0",
+            "4_(10)_": 6,
+            "5_(10)_": "0",
+            "6_(10)_": 6,
+            "7_(10)_": 8,
+            "8_(10)_": "0",
+            "9_(10)_": 8,
+            "10_(10)_": "0",
+            "total": 35
+          },
+          {
+            "usn": "1CR24MC109",
+            "student_name": "Vaishnavi Padmashali",
+            "student_email": "vaishnavi.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 8,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": "0",
+            "6_(10)_": 10,
+            "7_(10)_": "0",
+            "8_(10)_": 8,
+            "9_(10)_": 10,
+            "10_(10)_": "0",
+            "total": 45
+          },
+          {
+            "usn": "1CR24MC111",
+            "student_name": "Varshini J ",
+            "student_email": "varshini.mca24@cmrit.ac.in",
+            "1_(10)_": 8,
+            "2_(10)_": "0",
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": 10,
+            "8_(10)_": "0",
+            "9_(10)_": 9,
+            "10_(10)_": "0",
+            "total": 47
+          },
+          {
+            "usn": "1CR24MC112",
+            "student_name": "Vignesh  ",
+            "student_email": "vignesh.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 10,
+            "3_(10)_": "0",
+            "4_(10)_": 10,
+            "5_(10)_": 10,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 5,
+            "9_(10)_": 10,
+            "10_(10)_": "0",
+            "total": 45
+          },
+          {
+            "usn": "1CR24MC114",
+            "student_name": "Yuvaraj T ",
+            "student_email": "yuvaraj.mca24@cmrit.ac.in",
+            "1_(10)_": "0",
+            "2_(10)_": 5,
+            "3_(10)_": "0",
+            "4_(10)_": 9,
+            "5_(10)_": 4,
+            "6_(10)_": "0",
+            "7_(10)_": "0",
+            "8_(10)_": 7,
+            "9_(10)_": 6,
+            "10_(10)_": "0",
+            "total": 31
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-12-24T09:25:15.047Z"
+  },
+  "d95fb526-aac7-44b2-b5ed-7f7185c19829": {
+    "id": "d95fb526-aac7-44b2-b5ed-7f7185c19829",
+    "filename": "play_tennis.csv",
+    "content": "",
+    "extractedTables": [
+      {
+        "name": "imported_csv",
+        "columns": [
+          {
+            "name": "outlook",
+            "type": "text"
+          },
+          {
+            "name": "temperature",
+            "type": "text"
+          },
+          {
+            "name": "humidity",
+            "type": "text"
+          },
+          {
+            "name": "windy",
+            "type": "text"
+          },
+          {
+            "name": "playtennis",
+            "type": "text"
+          }
+        ],
+        "rows": [
+          {
+            "outlook": "Sunny",
+            "temperature": "Hot",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Hot",
+            "humidity": "High",
+            "windy": "TRUE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Hot",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "TRUE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "TRUE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "FALSE",
+            "playtennis": "No"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Cool",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Mild",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Sunny",
+            "temperature": "Mild",
+            "humidity": "Normal",
+            "windy": "TRUE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "TRUE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Overcast",
+            "temperature": "Hot",
+            "humidity": "Normal",
+            "windy": "FALSE",
+            "playtennis": "Yes"
+          },
+          {
+            "outlook": "Rainy",
+            "temperature": "Mild",
+            "humidity": "High",
+            "windy": "TRUE",
+            "playtennis": "No"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2026-02-01T16:21:59.999Z"
+  }
+}
