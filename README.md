@@ -26,8 +26,8 @@
 
 ### 🗣️ Natural Language to SQL
 Interact with your database like a human. Create, query, update, and delete records using plain English.
-*   _"Create a user table"_
-*   _"Show me all active users"_
+*   _"Create table table_name"_
+*   _"Show all table"_
 
 </td>
 <td>
@@ -112,11 +112,11 @@ Visit `http://localhost:5000` to start chatting with your database!
 
 | Action | Command Example |
 | :--- | :--- |
-| **Create Table** | _"Create a table named students with columns id, name, and email."_ |
-| **Insert Data** | _"Insert into students values 1, John Doe, john@example.com."_ |
-| **Query** | _"Show all students where id is greater than 5."_ |
-| **Update** | _"Update students set name = 'Jane' where id = 1."_ |
-| **Delete** | _"Delete from students where id = 1."_ |
+| **Create Table** | _"Create table student with id, name, email, department in database college."_ |
+| **Insert Data** | _"Insert into student values 1, John Doe, john@example.com."_ |
+| **Query** | _"Show student table"_ |
+| **Update** | _"Update student set name = 'Jane' where id = 1."_ |
+| **Delete** | _"Delete from student where id = 1."_ |
 
 </details>
 
@@ -124,7 +124,7 @@ Visit `http://localhost:5000` to start chatting with your database!
 <summary><b>Click to see File Upload Instructions</b></summary>
 
 1.  Navigate to the **Upload** tab in the dashboard.
-2.  Drag and drop your file (**PDF, Excel, CSV, or Image**).
+2.  Drag and drop your file (** Excel or CSV**).
 3.  The AI will analyze the file and propose a table schema.
 4.  Confirm to import the data directly into your database.
 
